@@ -28,24 +28,22 @@ public class StoreClerk {
     }
 
     public void explainItemInfo(String itemInfo, long itemPrice) {
-        System.out.println("점원: 이 제품은 " + itemInfo + "이 장점 이고 가격은 "+ itemPrice + "입니다");
-    }
-
-    public void sayNoStock() {
-        System.out.println("재고가 없습니다...");
-    }
-
-    public void sayMessage(String message) {
-        System.out.println(message);
+        String message = "이 제품은 " + itemInfo + "이 장점 이고 가격은 "+ itemPrice + "입니다";
+        sayMessage(message);
     }
     public void sayProgressSellItem(Item item){
-        System.out.println("직원: 고객님 주문 도와드리겠습니다. "+item.getPrice() + " 입니다.");
+        String message = "고객님 주문 도와드리겠습니다. "+item.getPrice() + " 입니다.";
+        sayMessage(message);
     }
 
     public void provideDeliveryInfoToUser(String arriveTime, String itemName, long deliveryPrice){
-        System.out.println("점원: 손님 " +
+        String message = "손님 " +
                 itemName + "은 배송 도착날짜는 "+
                 arriveTime + "이고 제품가격 + 배송료는 " +
-                deliveryPrice + "입니다." ) ;
+                deliveryPrice + "입니다." ;
+        sayMessage(message);
+    }
+    public void sayMessage(String message) {
+        System.out.println("점원: " +message);
     }
 }

@@ -24,12 +24,18 @@ public class Main{
                 expensiveItem
         ));
 
-        Guest guest = new Guest("Guest", 100_000, true, Feeling.SOSO, expensiveItem);
+        Guest guest = new Guest("Guest", 100_000, true, Feeling.SOSO, normalItem);
         DeliveryDriver deliveryDriver =new DeliveryDriver("신속정확_베스트드라이버_마리오", 0, 3_000, 3);
         StoreClerk storeClerk = new StoreClerk("친절하고_가족같은_도라에몽", 0);
         ItemRepository itemRepository = new ItemRepository(items);
 
         StoreInterface store = new Store(storeClerk, deliveryDriver, itemRepository);
+        store.goToStore(guest);
+        System.out.println();
+        guest.setItem(noQuantityItem);
+        store.goToStore(guest);
+        System.out.println();
+        guest.setItem(expensiveItem);
         store.goToStore(guest);
     }
 }

@@ -50,7 +50,7 @@ public class DeliveryDriver {
 
     public String arriveDeliveryTime(Guest guest) {
         LocalDateTime arriveTime = LocalDateTime.now().plusDays(this.deliveryTime);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-mm-dd");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-dd");
         return formatter.format(arriveTime);
     }
 

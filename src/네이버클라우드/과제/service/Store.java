@@ -32,7 +32,7 @@ public class Store implements StoreInterface {
     }
 
     @Override
-    public boolean guestAskItem(Guest guest) throws Exception {
+    public boolean guestAskItem(Guest guest) {
             guest.askItemInfo();
             Item item = itemRepository.findItem(guest.getItem().getItemName())
                     .orElseThrow(() ->
@@ -114,10 +114,11 @@ public class Store implements StoreInterface {
             long total_price = deliveryDriver.getDeliveryPrice() + guest.getItem().getPrice();
             storeClerk.provideDeliveryInfoToUser(arriveTime, guest.getItem().getItemName(), total_price);
             try {
-                payDeliveryPrice(guest, total_price); // payDeliveryPrice로 값이 변함
+                payDeliveryPrice(guest, deliveryDriver.getDeliveryPrice()); // payDeliveryPrice로 값이 변함
                 guest.sayFeeling(Feeling.HAPPY);
             }catch(Exception e) {
                 guest.refundBuyItem(storeClerk);
+                guest.sayLaterCome();
             }
     }
 }

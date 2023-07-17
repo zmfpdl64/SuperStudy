@@ -66,7 +66,7 @@ public class Guest {
         this.item = item;
     }
 
-    public boolean canBuyItem(long itemPrice) throws RuntimeException {
+    public boolean canBuyItem(long itemPrice) {
         if(itemPrice <= getMoney()){
             return true;
         }
@@ -74,7 +74,7 @@ public class Guest {
     }
 
     public void sayLaterCome(){
-        System.out.println("손님: 다음에 올게요...");
+        System.out.println("손님: 다음에 올게요... 현재 남은 금액은: " + this.getMoney() + " 남았습니다.");
     }
 
     public void buyItem(StoreClerk storeClerk) throws RuntimeException {
@@ -89,13 +89,18 @@ public class Guest {
         Item refundItem = this.getItem();
         this.setMoney(this.getMoney()+refundItem.getPrice());
         storeClerk.setRevenue(storeClerk.getRevenue()-refundItem.getPrice());
+        sayRefundMessage();
     }
 
-    public void payDeliveryPrice(DeliveryDriver driver, long deliveryPrice) throws RuntimeException {
-        if(canBuyItem(deliveryPrice)){
-            driver.setRevenue(driver.getRevenue() + deliveryPrice);
-            this.setMoney(this.getMoney()-this.getItem().getPrice());
+    public void payDeliveryPrice(DeliveryDriver driver, long totalPrice) throws RuntimeException {
+        if(canBuyItem(totalPrice)){
+            driver.setRevenue(driver.getRevenue() + totalPrice);
+            this.setMoney(this.getMoney()-totalPrice);
         }
+    }
+
+    public void sayRefundMessage(){
+        System.out.println("손님: 배송료가 너무 비싸네요.. 신발 가격 환불해주세요");
     }
 
     public void askItemInfo() {

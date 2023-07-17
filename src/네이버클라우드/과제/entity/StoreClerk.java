@@ -1,5 +1,8 @@
 package 네이버클라우드.과제.entity;
 
+import 네이버클라우드.과제.exception.StoreErrorCode;
+import 네이버클라우드.과제.exception.StoreException;
+
 public class StoreClerk {
 
     private String clerkName;
@@ -24,6 +27,9 @@ public class StoreClerk {
     }
 
     public void setRevenue(long revenue) {
+        if(revenue < 0){
+            throw new StoreException(StoreErrorCode.OUT_OF_BOUND_MONEY);
+        }
         this.revenue = revenue;
     }
 

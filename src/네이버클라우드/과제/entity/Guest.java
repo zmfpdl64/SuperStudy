@@ -39,6 +39,9 @@ public class Guest {
     }
 
     public void setMoney(long money) {
+        if(money < 0){
+            throw new StoreException(StoreErrorCode.OUT_OF_BOUND_MONEY);
+        }
         this.money = money;
     }
 

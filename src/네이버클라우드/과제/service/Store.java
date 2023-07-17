@@ -62,10 +62,7 @@ public class Store implements StoreInterface {
     }
 
     public boolean checkItemQuantity(Item item) {
-        if(item.getStockQuantity() <= 0) {
-            return false;
-        }
-        return true;
+        return item.getStockQuantity() > 0;
     }
     public void goToStore(Guest guest) {
         try{
@@ -100,6 +97,7 @@ public class Store implements StoreInterface {
                 storeClerk.sayMessage(e.getMessage());
                 break;
             case CUSTOMER_NO_HAVE_MONEY:
+            case OUT_OF_BOUND_MONEY:
                 guest.sayMessage(e.getMessage());
                 break;
             default:

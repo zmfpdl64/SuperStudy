@@ -97,10 +97,10 @@ public class Store implements StoreInterface {
     private void sayErrorMessage(Guest guest, StoreException e) {
         switch(e.getCode()) {
             case ITEM_NO_HAVE_QUANTITY:
-                guest.sayMessage(e.getMessage());
+                storeClerk.sayMessage(e.getMessage());
                 break;
             case CUSTOMER_NO_HAVE_MONEY:
-                storeClerk.sayMessage(e.getMessage());
+                guest.sayMessage(e.getMessage());
                 break;
             default:
                 break;

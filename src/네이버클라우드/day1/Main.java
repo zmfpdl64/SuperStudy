@@ -4,5 +4,6 @@ package 네이버클라우드.day1;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+
     }
 }

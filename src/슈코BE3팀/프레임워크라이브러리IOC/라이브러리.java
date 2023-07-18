@@ -9,7 +9,7 @@ public class 라이브러리 {
         System.out.println(round(20.555d, 2));
         System.out.println(notUseLibrary(20.555d, 3));
     }
-
+    // 2째 자리 반올림 라이브러리, 직접 구현
     public static <T> double round(T value, int decimalPoint) {
         Float aFloat = Float.valueOf(String.valueOf(value));
         double pow = Math.pow(10, decimalPoint);
@@ -18,7 +18,6 @@ public class 라이브러리 {
 
     public static <T> double notUseLibrary(T value, int decimalPoint){
         double dValue = Double.valueOf(String.valueOf(value));
-
         // Math.pow()
         double pow = 1;
         for(int i = 0; i < decimalPoint; i++) {

@@ -64,6 +64,8 @@ public class Store implements StoreInterface {
     public boolean checkItemQuantity(Item item) {
         return item.getStockQuantity() > 0;
     }
+
+    //메인 메소드
     public void goToStore(Guest guest) {
         try{
             guestAskItem(guest); //아이템 물어보고 점원이 소개
@@ -73,12 +75,12 @@ public class Store implements StoreInterface {
                 return;
             }
             if(isGuestPreferBuy(guest)){    // 손님이 제품 구매를 선호하는지 확인
-                GuestPreferBuyItem(guest); // 손님 선호할 때 구매
+                guestBuyPreferItem(guest); // 손님 선호할 때 구매
                 return;
             }
             guest.sayLaterCome();
         }catch(StoreException e) {
-            sayErrorMessage(guest, e);
+            sayGuestErrorMessage(guest, e);
         }catch(Exception e) {
             storeClerk.sayMessage(e.getMessage());
         }
@@ -91,7 +93,7 @@ public class Store implements StoreInterface {
         guest.sayFeeling(Feeling.HAPPY);
     }
 
-    private void sayErrorMessage(Guest guest, StoreException e) {
+    private void sayGuestErrorMessage(Guest guest, StoreException e) {
         switch(e.getCode()) {
             case ITEM_NO_HAVE_QUANTITY:
                 storeClerk.sayMessage(e.getMessage());
@@ -105,7 +107,7 @@ public class Store implements StoreInterface {
         }
     }
 
-    private void GuestPreferBuyItem(Guest guest) {
+    private void guestBuyPreferItem(Guest guest) {
             buyItem(guest); // buyItem으로 값이 변함
             guest.sayProgressBuy();
             String arriveTime = deliveryDriver.arriveDeliveryTime(guest);

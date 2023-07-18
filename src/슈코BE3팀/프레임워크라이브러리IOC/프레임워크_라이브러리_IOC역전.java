@@ -21,7 +21,6 @@ public class 프레임워크_라이브러리_IOC역전 {
      * 3. IOC란??
      */
 
-
     // IOC 역전
     class DI_클래스{
         public final MemberService memberService = new MemberService();

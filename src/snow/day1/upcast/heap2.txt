@@ -1,0 +1,1403 @@
+C:\Users\이우진\.jdks\corretto-11.0.19\bin\jcmd.exe 4336 GC.class_histogram
+4336:
+ num     #instances         #bytes  class name (module)
+-------------------------------------------------------
+   1:         17681        6271384  [B (java.base@11.0.19)
+   2:          1438        1017136  [I (java.base@11.0.19)
+   3:          3987         475600  java.lang.Class (java.base@11.0.19)
+   4:         16924         406176  java.lang.String (java.base@11.0.19)
+   5:          5920         387112  [Ljava.lang.Object; (java.base@11.0.19)
+   6:         10339         330848  java.util.concurrent.ConcurrentHashMap$Node (java.base@11.0.19)
+   7:           361         184200  [C (java.base@11.0.19)
+   8:          4604         147328  java.util.HashMap$Node (java.base@11.0.19)
+   9:          1873         134856  io.netty.buffer.PoolSubpage
+  10:           147          97680  [Ljava.util.concurrent.ConcurrentHashMap$Node; (java.base@11.0.19)
+  11:          3041          97312  java.lang.invoke.LambdaForm$Name (java.base@11.0.19)
+  12:          6032          96512  java.lang.Object (java.base@11.0.19)
+  13:          1476          70848  sun.util.locale.LocaleObjectCache$CacheEntry (java.base@11.0.19)
+  14:           533          65232  [Ljava.util.HashMap$Node; (java.base@11.0.19)
+  15:          1962          62784  java.util.concurrent.locks.ReentrantLock$NonfairSync (java.base@11.0.19)
+  16:           666          58608  java.lang.reflect.Method (java.base@11.0.19)
+  17:          1188          57024  java.lang.invoke.MemberName (java.base@11.0.19)
+  18:          1647          46848  [Ljava.lang.Class; (java.base@11.0.19)
+  19:          1138          45520  java.lang.ref.SoftReference (java.base@11.0.19)
+  20:            80          43520  io.netty.util.internal.shaded.org.jctools.queues.atomic.MpscAtomicArrayQueue
+  21:          1962          31392  java.util.concurrent.locks.ReentrantLock (java.base@11.0.19)
+  22:           696          27840  java.lang.invoke.MethodType (java.base@11.0.19)
+  23:           857          27424  java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry (java.base@11.0.19)
+  24:           548          26304  java.util.HashMap (java.base@11.0.19)
+  25:           355          25448  [Ljava.lang.invoke.LambdaForm$Name; (java.base@11.0.19)
+  26:           360          24480  [Ljava.lang.ref.SoftReference; (java.base@11.0.19)
+  27:           738          23616  java.util.Locale (java.base@11.0.19)
+  28:           737          23584  sun.util.locale.BaseLocale (java.base@11.0.19)
+  29:           737          23584  sun.util.locale.BaseLocale$Key (java.base@11.0.19)
+  30:           719          23008  org.jetbrains.jps.model.library.impl.JpsLibraryRootImpl
+  31:           819          19656  java.lang.invoke.ResolvedMethodName (java.base@11.0.19)
+  32:           264          19008  java.lang.reflect.Field (java.base@11.0.19)
+  33:           570          18240  java.lang.invoke.LambdaForm$NamedFunction (java.base@11.0.19)
+  34:           350          16800  java.lang.invoke.LambdaForm (java.base@11.0.19)
+  35:           245          15680  java.lang.Class$ReflectionData (java.base@11.0.19)
+  36:           184          14720  java.lang.reflect.Constructor (java.base@11.0.19)
+  37:           201          14040  [Ljava.lang.String; (java.base@11.0.19)
+  38:           288          13824  io.netty.buffer.PoolChunkList
+  39:           311          12440  java.lang.invoke.DirectMethodHandle$Accessor (java.base@11.0.19)
+  40:           214          11984  java.lang.invoke.MethodTypeForm (java.base@11.0.19)
+  41:           208          11648  java.lang.invoke.LambdaFormEditor$Transform (java.base@11.0.19)
+  42:           178          11392  java.util.concurrent.ConcurrentHashMap (java.base@11.0.19)
+  43:            49          10512  [Lio.netty.buffer.PoolSubpage;
+  44:           201           9648  java.util.logging.LogManager$LoggerWeakRef (java.logging@11.0.19)
+  45:           363           8712  java.lang.module.ModuleDescriptor$Exports (java.base@11.0.19)
+  46:           133           8512  java.net.URL (java.base@11.0.19)
+  47:            97           8488  [Lcom.intellij.util.containers.hash.LinkedHashMap$Entry;
+  48:           264           8448  java.lang.invoke.DirectMethodHandle (java.base@11.0.19)
+  49:            50           6552  [J (java.base@11.0.19)
+  50:           195           6240  io.netty.util.internal.LongAdderCounter
+  51:           256           6144  java.lang.Long (java.base@11.0.19)
+  52:           250           6000  java.util.ImmutableCollections$Set12 (java.base@11.0.19)
+  53:           179           5728  java.util.logging.LogManager$LogNode (java.logging@11.0.19)
+  54:           178           5696  java.lang.Package (java.base@11.0.19)
+  55:            86           5584  [Ljava.lang.invoke.MethodHandle; (java.base@11.0.19)
+  56:            99           5544  java.util.logging.Logger (java.logging@11.0.19)
+  57:            62           4960  java.net.URI (java.base@11.0.19)
+  58:            58           4672  [Ljava.util.WeakHashMap$Entry; (java.base@11.0.19)
+  59:            96           4608  jdk.internal.ref.CleanerImpl$PhantomCleanableRef (java.base@11.0.19)
+  60:           285           4560  java.lang.Integer (java.base@11.0.19)
+  61:           187           4488  java.util.ArrayList (java.base@11.0.19)
+  62:           135           4320  java.lang.module.ModuleDescriptor$Requires (java.base@11.0.19)
+  63:             3           4208  [Ljava.nio.ByteBuffer; (java.base@11.0.19)
+  64:           174           4176  java.util.concurrent.CopyOnWriteArrayList (java.base@11.0.19)
+  65:           173           4152  jdk.internal.module.ServicesCatalog$ServiceProvider (java.base@11.0.19)
+  66:           256           4096  java.lang.Byte (java.base@11.0.19)
+  67:            11           4048  java.lang.Thread (java.base@11.0.19)
+  68:            72           4032  java.lang.Module (java.base@11.0.19)
+  69:           100           4000  java.util.logging.Logger$ConfigurationData (java.logging@11.0.19)
+  70:            62           3968  java.lang.module.ModuleDescriptor (java.base@11.0.19)
+  71:            74           3912  [Ljava.lang.reflect.Method; (java.base@11.0.19)
+  72:           158           3816  [Ljava.lang.reflect.Constructor; (java.base@11.0.19)
+  73:            68           3808  java.util.LinkedHashMap (java.base@11.0.19)
+  74:            95           3800  sun.nio.fs.WindowsPath (java.base@11.0.19)
+  75:            94           3760  java.util.LinkedHashMap$Entry (java.base@11.0.19)
+  76:            24           3648  io.netty.buffer.PoolArena$DirectArena
+  77:            24           3648  io.netty.buffer.PoolArena$HeapArena
+  78:           152           3648  jdk.internal.reflect.NativeConstructorAccessorImpl (java.base@11.0.19)
+  79:           220           3520  java.util.HashSet (java.base@11.0.19)
+  80:           104           3512  [[C (java.base@11.0.19)
+  81:            62           3472  jdk.internal.module.ModuleReferenceImpl (java.base@11.0.19)
+  82:           141           3384  java.util.ImmutableCollections$SetN (java.base@11.0.19)
+  83:           102           3264  java.lang.ref.WeakReference (java.base@11.0.19)
+  84:            48           2688  com.intellij.util.containers.SLRUMap$1
+  85:            48           2688  com.intellij.util.containers.SLRUMap$2
+  86:            24           2664  [Ljava.lang.Integer; (java.base@11.0.19)
+  87:            54           2592  java.util.WeakHashMap (java.base@11.0.19)
+  88:            64           2560  java.lang.ref.Finalizer (java.base@11.0.19)
+  89:            79           2528  java.lang.ref.ReferenceQueue (java.base@11.0.19)
+  90:           105           2520  java.util.ImmutableCollections$List12 (java.base@11.0.19)
+  91:            78           2496  io.netty.buffer.PoolThreadCache$SubPageMemoryRegionCache
+  92:            78           2496  java.lang.invoke.BoundMethodHandle$Species_L (java.base@11.0.19)
+  93:           154           2464  jdk.internal.reflect.DelegatingConstructorAccessorImpl (java.base@11.0.19)
+  94:            33           2376  java.util.zip.ZipFile$Source (java.base@11.0.19)
+  95:            92           2208  java.security.Provider$ServiceKey (java.base@11.0.19)
+  96:            54           2160  java.lang.invoke.BoundMethodHandle$Species_LL (java.base@11.0.19)
+  97:            38           2128  java.security.Provider$Service (java.base@11.0.19)
+  98:            53           2120  java.util.TreeMap$Entry (java.base@11.0.19)
+  99:            66           2112  java.lang.invoke.LambdaForm$Kind (java.base@11.0.19)
+ 100:            33           2112  java.util.jar.JarFile (java.base@11.0.19)
+ 101:            33           2112  sun.nio.fs.WindowsFileAttributes (java.base@11.0.19)
+ 102:            52           2080  java.io.ObjectStreamField (java.base@11.0.19)
+ 103:            36           2016  java.io.FileCleanable (java.base@11.0.19)
+ 104:           118           1888  java.util.ImmutableCollections$ListN (java.base@11.0.19)
+ 105:            47           1880  com.fasterxml.aalto.in.PName2
+ 106:            57           1824  java.io.File (java.base@11.0.19)
+ 107:            38           1824  java.lang.invoke.BoundMethodHandle$SpeciesData (java.base@11.0.19)
+ 108:             3           1752  io.netty.util.internal.shaded.org.jctools.queues.atomic.MpscChunkedAtomicArrayQueue
+ 109:            24           1728  java.util.ResourceBundle$CacheKey (java.base@11.0.19)
+ 110:            42           1680  java.io.FileDescriptor (java.base@11.0.19)
+ 111:             8           1664  [Z (java.base@11.0.19)
+ 112:            31           1608  [Ljava.lang.reflect.Field; (java.base@11.0.19)
+ 113:            33           1584  jdk.internal.loader.URLClassPath$JarLoader (java.base@11.0.19)
+ 114:            48           1536  java.util.ResourceBundle$KeyElementReference (java.base@11.0.19)
+ 115:            38           1520  [Ljava.lang.invoke.BoundMethodHandle$SpeciesData; (java.base@11.0.19)
+ 116:            62           1488  java.lang.module.ResolvedModule (java.base@11.0.19)
+ 117:            62           1488  jdk.internal.module.SystemModuleFinders$2 (java.base@11.0.19)
+ 118:            62           1488  jdk.internal.module.SystemModuleFinders$SystemModuleReader (java.base@11.0.19)
+ 119:            23           1472  it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap
+ 120:            61           1464  jdk.internal.loader.BuiltinClassLoader$LoadedModule (java.base@11.0.19)
+ 121:            36           1440  java.security.ProtectionDomain (java.base@11.0.19)
+ 122:             1           1424  [[B (java.base@11.0.19)
+ 123:            59           1416  java.lang.invoke.MethodHandleNatives$CallSiteContext (java.base@11.0.19)
+ 124:            59           1416  java.lang.module.ModuleDescriptor$Provides (java.base@11.0.19)
+ 125:            22           1408  java.lang.invoke.BoundMethodHandle$Species_LLLLLLIIL (java.base@11.0.19)
+ 126:            85           1360  java.util.concurrent.atomic.AtomicReferenceArray (java.base@11.0.19)
+ 127:            21           1344  java.nio.DirectByteBuffer (java.base@11.0.19)
+ 128:            33           1320  java.security.CodeSource (java.base@11.0.19)
+ 129:            55           1320  java.util.Collections$SetFromMap (java.base@11.0.19)
+ 130:            55           1320  java.util.Collections$UnmodifiableRandomAccessList (java.base@11.0.19)
+ 131:            81           1296  java.lang.ref.ReferenceQueue$Lock (java.base@11.0.19)
+ 132:            32           1280  com.intellij.util.containers.SLRUMap
+ 133:            22           1232  com.intellij.util.io.PagedFileStorage
+ 134:            30           1200  java.util.WeakHashMap$Entry (java.base@11.0.19)
+ 135:            15           1200  sun.net.www.protocol.jar.URLJarFile (java.base@11.0.19)
+ 136:            74           1184  java.util.concurrent.atomic.AtomicInteger (java.base@11.0.19)
+ 137:            24           1152  com.fasterxml.aalto.in.PName3
+ 138:            36           1152  com.intellij.util.containers.IntKeyWeakValueHashMap$MyReference
+ 139:             2           1152  io.netty.util.internal.shaded.org.jctools.queues.atomic.MpscUnboundedAtomicArrayQueue
+ 140:            24           1152  java.util.ResourceBundle$BundleReference (java.base@11.0.19)
+ 141:            45           1080  java.security.Provider$UString (java.base@11.0.19)
+ 142:            45           1080  java.util.ArrayDeque (java.base@11.0.19)
+ 143:            33           1056  java.io.RandomAccessFile (java.base@11.0.19)
+ 144:            33           1056  java.util.zip.ZipFile$CleanableResource (java.base@11.0.19)
+ 145:             1           1040  [Lcom.fasterxml.aalto.in.ByteBasedPName;
+ 146:             1           1040  [Ljava.lang.Byte; (java.base@11.0.19)
+ 147:             1           1040  [Ljava.lang.Long; (java.base@11.0.19)
+ 148:            26           1040  com.fasterxml.aalto.in.PNameN
+ 149:            26           1040  java.lang.invoke.MethodHandleImpl$AsVarargsCollector (java.base@11.0.19)
+ 150:            10           1040  java.util.jar.JarFile$JarFileEntry (java.base@11.0.19)
+ 151:            43           1032  java.util.jar.Attributes$Name (java.base@11.0.19)
+ 152:             7           1008  [Ljava.lang.invoke.MemberName; (java.base@11.0.19)
+ 153:            63           1008  com.intellij.openapi.diagnostic.JulLogger
+ 154:            31            992  io.netty.channel.ChannelOption
+ 155:            31            992  java.lang.invoke.VarHandle$AccessMode (java.base@11.0.19)
+ 156:             8            960  com.intellij.util.io.PersistentMapImpl
+ 157:            30            960  java.security.Provider$EngineDescription (java.base@11.0.19)
+ 158:            60            960  jdk.internal.module.SystemModuleFinders$3 (java.base@11.0.19)
+ 159:             9            936  com.intellij.util.io.PersistentBTreeEnumerator
+ 160:            23            920  java.io.FilePermission (java.base@11.0.19)
+ 161:            19            912  java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync (java.base@11.0.19)
+ 162:            28            896  java.security.Permissions (java.base@11.0.19)
+ 163:            21            840  java.lang.invoke.DirectMethodHandle$Special (java.base@11.0.19)
+ 164:            34            816  org.slf4j.impl.JDK14LoggerAdapter
+ 165:             9            792  com.intellij.util.io.IntToIntBtree
+ 166:            33            792  io.netty.util.internal.logging.LocationAwareSlf4JLogger
+ 167:            33            792  java.util.zip.ZipFile$Source$Key (java.base@11.0.19)
+ 168:            49            784  java.util.WeakHashMap$KeySet (java.base@11.0.19)
+ 169:            32            768  io.netty.buffer.LongPriorityQueue
+ 170:            24            768  org.jetbrains.jps.model.impl.JpsElementCollectionImpl
+ 171:            23            736  com.intellij.util.lang.JavaVersion
+ 172:            18            720  com.fasterxml.aalto.in.PName1
+ 173:            18            720  com.intellij.util.io.ResizeableMappedFile
+ 174:            18            720  java.lang.invoke.VarHandleObjects$FieldInstanceReadWrite (java.base@11.0.19)
+ 175:            18            720  java.security.AccessControlContext (java.base@11.0.19)
+ 176:            29            696  com.intellij.openapi.util.Key
+ 177:            27            648  com.intellij.util.SmartList
+ 178:            27            648  java.lang.ThreadLocal$SuppliedThreadLocal (java.base@11.0.19)
+ 179:             8            640  com.intellij.util.io.PersistentHashMapValueStorage
+ 180:             3            624  [Ljava.lang.invoke.LambdaForm; (java.base@11.0.19)
+ 181:             9            608  [S (java.base@11.0.19)
+ 182:             5            600  [Ljava.lang.ClassValue$Entry; (java.base@11.0.19)
+ 183:            15            600  jdk.internal.ref.Cleaner (java.base@11.0.19)
+ 184:            37            592  java.util.HashMap$EntrySet (java.base@11.0.19)
+ 185:            37            592  java.util.concurrent.atomic.AtomicBoolean (java.base@11.0.19)
+ 186:            36            576  [Ljava.security.Principal; (java.base@11.0.19)
+ 187:             8            576  com.intellij.util.io.PersistentHashMapValueStorage$MyCompressedAppendableFile
+ 188:            24            576  java.lang.invoke.Invokers (java.base@11.0.19)
+ 189:            36            576  java.security.ProtectionDomain$Key (java.base@11.0.19)
+ 190:             7            560  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLLLIILL (java.base@11.0.19)
+ 191:             7            560  java.util.concurrent.TimeUnit (java.base@11.0.19)
+ 192:            23            552  java.io.FilePermissionCollection (java.base@11.0.19)
+ 193:            23            552  org.jetbrains.jps.model.ex.JpsElementContainerImpl
+ 194:            23            552  org.jetbrains.jps.model.java.LanguageLevel
+ 195:            22            528  com.intellij.util.io.PagedFileStorageCache
+ 196:            22            528  sun.reflect.annotation.AnnotationInvocationHandler (java.base@11.0.19)
+ 197:            17            520  [Ljava.io.ObjectStreamField; (java.base@11.0.19)
+ 198:             8            512  com.intellij.util.io.PersistentMapBuilder
+ 199:            16            512  io.netty.handler.codec.CodecOutputList
+ 200:             7            504  it.unimi.dsi.fastutil.objects.Object2ObjectOpenCustomHashMap
+ 201:            21            504  java.util.concurrent.atomic.AtomicLong (java.base@11.0.19)
+ 202:             7            496  [Lsun.invoke.util.Wrapper; (java.base@11.0.19)
+ 203:            20            480  com.fasterxml.aalto.in.ByteBasedPNameTable$Bucket
+ 204:            15            480  java.util.zip.ZipFile$CleanableResource$FinalizableResource (java.base@11.0.19)
+ 205:            10            480  sun.invoke.util.Wrapper (java.base@11.0.19)
+ 206:            19            456  java.util.concurrent.locks.ReentrantReadWriteLock (java.base@11.0.19)
+ 207:            14            448  java.nio.DirectByteBuffer$Deallocator (java.base@11.0.19)
+ 208:            28            448  java.util.Collections$UnmodifiableSet (java.base@11.0.19)
+ 209:            11            440  com.intellij.util.containers.hash.LongLinkedHashMap$Entry
+ 210:            11            440  com.intellij.util.io.DirectBufferWrapper
+ 211:             5            440  java.util.regex.Pattern (java.base@11.0.19)
+ 212:             1            432  [[[C (java.base@11.0.19)
+ 213:            18            432  java.lang.RuntimePermission (java.base@11.0.19)
+ 214:             9            432  org.jetbrains.jps.incremental.storage.BuildTargetTypeState
+ 215:            26            416  java.security.SecureClassLoader$CodeSourceKey (java.base@11.0.19)
+ 216:            13            416  sun.security.jca.ProviderConfig (java.base@11.0.19)
+ 217:            17            408  net.jpountz.lz4.LZ4HCJavaUnsafeCompressor
+ 218:            17            408  sun.nio.ch.OptionKey (java.base@11.0.19)
+ 219:            17            408  sun.nio.ch.SocketOptionRegistry$RegistryKey (java.base@11.0.19)
+ 220:            17            408  sun.reflect.generics.tree.SimpleClassTypeSignature (java.base@11.0.19)
+ 221:             4            400  [Lio.netty.buffer.PoolThreadCache$MemoryRegionCache;
+ 222:            10            400  com.intellij.util.io.IntToIntBtree$BtreeIndexNodeView
+ 223:            10            400  java.lang.OutOfMemoryError (java.base@11.0.19)
+ 224:             9            392  [Ljava.lang.invoke.MethodType; (java.base@11.0.19)
+ 225:             7            384  [Ljava.util.Hashtable$Entry; (java.base@11.0.19)
+ 226:             8            384  com.intellij.util.io.PersistentMapImpl$2
+ 227:            16            384  java.lang.Class$AnnotationData (java.base@11.0.19)
+ 228:             6            384  java.nio.DirectByteBufferR (java.base@11.0.19)
+ 229:             1            376  java.lang.ref.Finalizer$FinalizerThread (java.base@11.0.19)
+ 230:             1            376  java.util.logging.LogManager$Cleaner (java.logging@11.0.19)
+ 231:             1            376  jdk.internal.misc.InnocuousThread (java.base@11.0.19)
+ 232:             1            368  java.lang.ref.Reference$ReferenceHandler (java.base@11.0.19)
+ 233:            11            352  [Ljava.lang.invoke.LambdaFormEditor$Transform; (java.base@11.0.19)
+ 234:            11            352  java.lang.invoke.VarHandle$AccessDescriptor (java.base@11.0.19)
+ 235:             5            344  [D (java.base@11.0.19)
+ 236:             7            336  it.unimi.dsi.fastutil.objects.ObjectOpenCustomHashSet
+ 237:             6            336  java.nio.DirectLongBufferU (java.base@11.0.19)
+ 238:             7            336  java.nio.HeapByteBuffer (java.base@11.0.19)
+ 239:             7            336  java.util.Hashtable (java.base@11.0.19)
+ 240:            14            336  jdk.internal.loader.AbstractClassLoaderValue$Sub (java.base@11.0.19)
+ 241:            21            336  org.jetbrains.jps.model.ex.JpsElementChildRoleBase
+ 242:             3            336  sun.nio.ch.SocketChannelImpl (java.base@11.0.19)
+ 243:             1            328  java.util.concurrent.ForkJoinPool (java.base@11.0.19)
+ 244:            20            320  java.lang.ThreadLocal (java.base@11.0.19)
+ 245:             8            320  java.util.IdentityHashMap (java.base@11.0.19)
+ 246:             8            320  java.util.PropertyResourceBundle (java.base@11.0.19)
+ 247:            17            304  [Lsun.reflect.generics.tree.TypeArgument; (java.base@11.0.19)
+ 248:            19            304  java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock (java.base@11.0.19)
+ 249:            19            304  java.util.concurrent.locks.ReentrantReadWriteLock$Sync$ThreadLocalHoldCounter (java.base@11.0.19)
+ 250:            19            304  java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock (java.base@11.0.19)
+ 251:             9            288  com.intellij.util.io.IntToIntBtree$BtreeRootNode
+ 252:            12            288  java.net.StandardSocketOptions$StdSocketOption (java.base@11.0.19)
+ 253:             9            288  java.util.logging.Level (java.logging@11.0.19)
+ 254:             9            288  java.util.logging.Level$KnownLevel (java.logging@11.0.19)
+ 255:             9            288  jdk.internal.org.objectweb.asm.Type (java.base@11.0.19)
+ 256:             9            288  org.jetbrains.jps.incremental.storage.BuildTargetConfiguration
+ 257:            12            288  org.jetbrains.jps.model.ex.JpsElementCollectionRole
+ 258:             9            288  sun.reflect.generics.repository.ClassRepository (java.base@11.0.19)
+ 259:             1            280  [Ljava.lang.invoke.LambdaForm$Kind; (java.base@11.0.19)
+ 260:             5            280  io.netty.channel.DefaultChannelHandlerContext
+ 261:             5            280  sun.util.calendar.ZoneInfo (java.base@11.0.19)
+ 262:            17            272  io.netty.channel.$Proxy3
+ 263:            17            272  sun.invoke.util.ValueConversions$WrapperCache (java.base@11.0.19)
+ 264:            17            272  sun.reflect.generics.tree.ClassTypeSignature (java.base@11.0.19)
+ 265:            11            264  com.intellij.util.io.PagedFileStorageCache$CachedBuffer
+ 266:            11            264  java.lang.invoke.MethodHandleImpl$Intrinsic (java.base@11.0.19)
+ 267:            11            264  java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject (java.base@11.0.19)
+ 268:            11            264  java.util.regex.Pattern$BmpCharProperty (java.base@11.0.19)
+ 269:            11            264  java.util.regex.Pattern$GroupHead (java.base@11.0.19)
+ 270:            11            264  java.util.regex.Pattern$GroupTail (java.base@11.0.19)
+ 271:            11            264  jdk.internal.reflect.NativeMethodAccessorImpl (java.base@11.0.19)
+ 272:            11            264  org.jdom.AttributeType
+ 273:             8            256  com.intellij.util.containers.LimitedPool
+ 274:             8            256  com.intellij.util.containers.UnsafeWeakList$MyReference
+ 275:             8            256  com.intellij.util.io.PersistentMapImpl$MyEnumeratorRecordHandler
+ 276:             4            256  java.lang.ClassValue$ClassValueMap (java.base@11.0.19)
+ 277:             8            256  java.lang.reflect.ProxyGenerator$PrimitiveTypeInfo (java.base@11.0.19)
+ 278:            16            256  java.util.Collections$SingletonSet (java.base@11.0.19)
+ 279:             6            240  com.intellij.util.containers.hash.LinkedHashMap$Entry
+ 280:             6            240  java.lang.ClassLoader$NativeLibrary (java.base@11.0.19)
+ 281:             3            240  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLLLLLII (java.base@11.0.19)
+ 282:            10            240  java.nio.charset.CoderResult (java.base@11.0.19)
+ 283:            10            240  java.nio.file.StandardOpenOption (java.base@11.0.19)
+ 284:             5            240  java.util.concurrent.LinkedBlockingQueue (java.base@11.0.19)
+ 285:            10            240  java.util.regex.Pattern$BmpCharPropertyGreedy (java.base@11.0.19)
+ 286:             2            224  [Lio.netty.buffer.PoolArena;
+ 287:             5            224  [Ljava.lang.invoke.LambdaForm$NamedFunction; (java.base@11.0.19)
+ 288:             4            224  com.intellij.util.io.keyStorage.AppendableStorageBackedByResizableMappedFile
+ 289:             7            224  java.lang.ClassValue$Entry (java.base@11.0.19)
+ 290:             7            224  java.lang.ThreadLocal$ThreadLocalMap$Entry (java.base@11.0.19)
+ 291:             7            224  java.lang.invoke.VarHandleInts$FieldInstanceReadWrite (java.base@11.0.19)
+ 292:             7            224  java.util.Hashtable$Entry (java.base@11.0.19)
+ 293:            14            224  java.util.LinkedHashSet (java.base@11.0.19)
+ 294:             7            224  java.util.RegularEnumSet (java.base@11.0.19)
+ 295:             7            224  java.util.Vector (java.base@11.0.19)
+ 296:             7            224  java.util.concurrent.atomic.AtomicIntegerFieldUpdater$AtomicIntegerFieldUpdaterImpl (java.base@11.0.19)
+ 297:             7            224  java.util.concurrent.atomic.AtomicLongFieldUpdater$CASUpdater (java.base@11.0.19)
+ 298:            14            224  org.jetbrains.jps.model.JpsElementChildRole
+ 299:             2            224  sun.security.provider.HashDrbg (java.base@11.0.19)
+ 300:             3            216  com.google.protobuf.MessageSchema
+ 301:             9            216  com.intellij.util.io.PersistentEnumeratorBase$Version
+ 302:             9            216  java.io.ExpiringCache$Entry (java.base@11.0.19)
+ 303:             9            216  sun.reflect.generics.tree.ClassSignature (java.base@11.0.19)
+ 304:             9            216  sun.util.logging.PlatformLogger$Level (java.base@11.0.19)
+ 305:             2            208  java.net.URLClassLoader (java.base@11.0.19)
+ 306:             5            200  java.lang.invoke.DirectMethodHandle$Constructor (java.base@11.0.19)
+ 307:             5            200  java.util.EnumMap (java.base@11.0.19)
+ 308:             5            200  java.util.stream.StreamOpFlag (java.base@11.0.19)
+ 309:             5            200  jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl (java.base@11.0.19)
+ 310:             8            192  com.intellij.openapi.util.LowMemoryWatcher
+ 311:             8            192  com.intellij.util.io.PersistentHashMapValueStorage$CreationTimeOptions
+ 312:             3            192  it.unimi.dsi.fastutil.objects.ObjectLinkedOpenCustomHashSet
+ 313:             3            192  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLII (java.base@11.0.19)
+ 314:             6            192  java.lang.invoke.LambdaForm$BasicType (java.base@11.0.19)
+ 315:             6            192  java.net.InetAddress$InetAddressHolder (java.base@11.0.19)
+ 316:             8            192  java.net.NetPermission (java.base@11.0.19)
+ 317:             8            192  java.util.Arrays$ArrayList (java.base@11.0.19)
+ 318:             6            192  java.util.ImmutableCollections$MapN (java.base@11.0.19)
+ 319:             6            192  java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl (java.base@11.0.19)
+ 320:             6            192  java.util.regex.Pattern$Branch (java.base@11.0.19)
+ 321:             8            192  org.jetbrains.jps.incremental.BuilderCategory
+ 322:             4            192  sun.nio.cs.StreamEncoder (java.base@11.0.19)
+ 323:             4            192  sun.nio.cs.UTF_8$Encoder (java.base@11.0.19)
+ 324:             8            192  sun.reflect.generics.factory.CoreReflectionFactory (java.base@11.0.19)
+ 325:             8            192  sun.reflect.generics.scope.ClassScope (java.base@11.0.19)
+ 326:             4            192  sun.util.resources.Bundles$BundleReference (java.base@11.0.19)
+ 327:             9            176  [Lsun.reflect.generics.tree.FormalTypeParameter; (java.base@11.0.19)
+ 328:             2            176  jdk.internal.reflect.DelegatingClassLoader (java.base@11.0.19)
+ 329:            11            176  jdk.internal.reflect.DelegatingMethodAccessorImpl (java.base@11.0.19)
+ 330:             7            168  com.google.protobuf.GeneratedMessageLite$MethodToInvoke
+ 331:             7            168  java.lang.System$Logger$Level (java.base@11.0.19)
+ 332:             7            168  java.lang.invoke.VarForm (java.base@11.0.19)
+ 333:             3            168  java.util.Properties (java.base@11.0.19)
+ 334:             7            168  java.util.concurrent.ConcurrentHashMap$KeySetView (java.base@11.0.19)
+ 335:             7            168  org.jdom.Content$CType
+ 336:             7            168  org.jetbrains.jps.api.CmdlineRemoteProto$Message$BuilderMessage$Type
+ 337:             7            168  org.jetbrains.jps.incremental.GlobalContextKey
+ 338:             2            160  [Lcom.intellij.util.containers.SLRUMap;
+ 339:             2            160  [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry; (java.base@11.0.19)
+ 340:             6            160  [Ljava.security.ProtectionDomain; (java.base@11.0.19)
+ 341:             4            160  io.netty.util.internal.ObjectPool$RecyclerObjectPool$1
+ 342:             2            160  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLLLLIIL (java.base@11.0.19)
+ 343:             5            160  java.lang.invoke.VarHandle$AccessType (java.base@11.0.19)
+ 344:             5            160  java.util.Collections$SynchronizedMap (java.base@11.0.19)
+ 345:            10            160  java.util.Formatter$Flags (java.base@11.0.19)
+ 346:             5            160  org.jetbrains.jps.model.library.impl.JpsLibraryImpl
+ 347:             5            160  org.jetbrains.jps.model.library.impl.sdk.JpsSdkImpl
+ 348:             5            160  sun.reflect.annotation.AnnotationType (java.base@11.0.19)
+ 349:             5            160  sun.util.locale.provider.LocaleProviderAdapter$Type (java.base@11.0.19)
+ 350:             1            152  io.netty.channel.nio.NioEventLoop
+ 351:             1            144  [Lcom.fasterxml.aalto.in.ByteBasedPNameTable$Bucket;
+ 352:             1            144  [Lio.netty.buffer.LongPriorityQueue;
+ 353:             3            144  [Lio.netty.util.internal.PriorityQueueNode;
+ 354:             1            144  [Ljava.lang.invoke.VarHandle$AccessMode; (java.base@11.0.19)
+ 355:             1            144  [Ljava.util.concurrent.ForkJoinPool$WorkQueue; (java.base@11.0.19)
+ 356:             1            144  [Ljava.util.concurrent.ForkJoinTask$ExceptionNode; (java.base@11.0.19)
+ 357:             6            144  [Ljava.util.regex.Pattern$Node; (java.base@11.0.19)
+ 358:             9            144  [Lsun.reflect.generics.tree.ClassTypeSignature; (java.base@11.0.19)
+ 359:             2            144  com.fasterxml.aalto.in.ReaderConfig
+ 360:             6            144  com.intellij.diagnostic.LoadingState
+ 361:             9            144  com.intellij.util.containers.CollectionFactory$1
+ 362:             3            144  com.intellij.util.io.FileAccessorCache$1
+ 363:             9            144  com.intellij.util.io.PersistentBTreeEnumerator$RecordBufferHandler
+ 364:             6            144  java.lang.Thread$State (java.base@11.0.19)
+ 365:             3            144  java.lang.ThreadGroup (java.base@11.0.19)
+ 366:             2            144  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLIIL (java.base@11.0.19)
+ 367:             6            144  java.lang.invoke.StringConcatFactory$Strategy (java.base@11.0.19)
+ 368:             6            144  java.net.Inet4Address (java.base@11.0.19)
+ 369:             6            144  java.net.InetSocketAddress$InetSocketAddressHolder (java.base@11.0.19)
+ 370:             6            144  java.util.regex.Pattern$BitClass (java.base@11.0.19)
+ 371:             6            144  jdk.internal.perf.PerfCounter (java.base@11.0.19)
+ 372:             6            144  org.jetbrains.jps.incremental.ResourcesTarget
+ 373:             2            144  sun.nio.ch.FileChannelImpl (java.base@11.0.19)
+ 374:             3            144  sun.util.locale.provider.LocaleResources$ResourceReference (java.base@11.0.19)
+ 375:             4            136  [Lsun.invoke.util.ValueConversions$WrapperCache; (java.base@11.0.19)
+ 376:             1            136  sun.nio.ch.WindowsSelectorImpl (java.base@11.0.19)
+ 377:             8            128  com.intellij.util.SameThreadExecutorService
+ 378:             8            128  com.intellij.util.io.PersistentBTreeEnumerator$RecordBufferHandler$$Lambda$117/0x0000000100257c40
+ 379:             8            128  com.intellij.util.io.PersistentHashMap
+ 380:             8            128  com.intellij.util.io.PersistentMapImpl$$Lambda$120/0x0000000100256840
+ 381:             8            128  com.intellij.util.io.PersistentMapImpl$$Lambda$121/0x0000000100256c40
+ 382:             8            128  com.intellij.util.io.PersistentMapImpl$1
+ 383:             8            128  com.intellij.util.io.PersistentMapImpl$MyEnumeratorRecordHandler$$Lambda$118/0x0000000100257040
+ 384:             8            128  com.intellij.util.io.PersistentMapImpl$MyEnumeratorRecordHandler$$Lambda$119/0x0000000100257440
+ 385:             2            128  io.netty.util.concurrent.ScheduledFutureTask
+ 386:             1            128  io.netty.util.internal.InternalThreadLocalMap
+ 387:             2            128  it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
+ 388:             2            128  java.io.ExpiringCache$1 (java.base@11.0.19)
+ 389:             4            128  java.util.Collections$UnmodifiableMap (java.base@11.0.19)
+ 390:             4            128  sun.reflect.generics.reflectiveObjects.TypeVariableImpl (java.base@11.0.19)
+ 391:             2            128  sun.security.provider.SHA2$SHA256 (java.base@11.0.19)
+ 392:             4            128  sun.util.resources.Bundles$CacheKey (java.base@11.0.19)
+ 393:             3            120  [Ljava.lang.invoke.LambdaForm$BasicType; (java.base@11.0.19)
+ 394:             1            120  [[Ljava.lang.String; (java.base@11.0.19)
+ 395:             5            120  com.intellij.util.system.CpuArch
+ 396:             3            120  java.lang.invoke.DirectMethodHandle$Interface (java.base@11.0.19)
+ 397:             5            120  java.lang.module.ModuleDescriptor$Opens (java.base@11.0.19)
+ 398:             5            120  java.util.Collections$SingletonList (java.base@11.0.19)
+ 399:             5            120  java.util.Collections$SynchronizedSet (java.base@11.0.19)
+ 400:             5            120  java.util.concurrent.LinkedBlockingQueue$Node (java.base@11.0.19)
+ 401:             5            120  java.util.regex.Pattern$$Lambda$18/0x000000010009a440 (java.base@11.0.19)
+ 402:             5            120  java.util.stream.StreamOpFlag$Type (java.base@11.0.19)
+ 403:             1            120  jdk.internal.loader.ClassLoaders$AppClassLoader (java.base@11.0.19)
+ 404:             3            120  jdk.internal.loader.URLClassPath (java.base@11.0.19)
+ 405:             5            120  jdk.internal.math.FloatingDecimal$PreparedASCIIToBinaryBuffer (java.base@11.0.19)
+ 406:             5            120  jdk.net.ExtendedSocketOptions$ExtSocketOption (jdk.net@11.0.19)
+ 407:             5            120  org.jdom.Namespace
+ 408:             5            120  org.jetbrains.jps.incremental.ModuleBuildTarget
+ 409:             5            120  org.jetbrains.jps.maven.model.impl.MavenAnnotationProcessorTarget
+ 410:             5            120  sun.nio.fs.WindowsPathType (java.base@11.0.19)
+ 411:             1            112  [Lcom.intellij.util.containers.hash.LongLinkedHashMap$Entry;
+ 412:             2            112  [Ljava.nio.file.StandardOpenOption; (java.base@11.0.19)
+ 413:             1            112  [Lorg.jetbrains.jps.model.java.LanguageLevel;
+ 414:             1            112  com.intellij.util.io.FilePageCache
+ 415:             1            112  io.netty.channel.socket.nio.NioSocketChannel
+ 416:             2            112  java.nio.DirectIntBufferRU (java.base@11.0.19)
+ 417:             7            112  java.util.regex.Pattern$$Lambda$14/0x000000010009b440 (java.base@11.0.19)
+ 418:             1            112  jdk.internal.loader.ClassLoaders$BootClassLoader (java.base@11.0.19)
+ 419:             1            112  jdk.internal.loader.ClassLoaders$PlatformClassLoader (java.base@11.0.19)
+ 420:             2            104  [Lsun.util.logging.PlatformLogger$Level; (java.base@11.0.19)
+ 421:             1            104  org.jetbrains.jps.builders.java.dependencyView.Mappings
+ 422:             1            104  sun.security.jca.ProviderList$1 (java.base@11.0.19)
+ 423:             1            104  sun.security.provider.Sun (java.base@11.0.19)
+ 424:             5             96  [Ljava.lang.StackTraceElement; (java.base@11.0.19)
+ 425:             2             96  [Ljava.lang.System$Logger$Level; (java.base@11.0.19)
+ 426:             3             96  [Ljava.lang.Thread; (java.base@11.0.19)
+ 427:             4             96  [Ljava.lang.reflect.Type; (java.base@11.0.19)
+ 428:             4             96  [Ljava.lang.reflect.TypeVariable; (java.base@11.0.19)
+ 429:             4             96  [Lsun.reflect.generics.tree.FieldTypeSignature; (java.base@11.0.19)
+ 430:             4             96  io.netty.util.Recycler$2
+ 431:             4             96  io.netty.util.ResourceLeakDetector$Level
+ 432:             2             96  it.unimi.dsi.fastutil.ints.IntOpenHashSet
+ 433:             3             96  java.io.BufferedOutputStream (java.base@11.0.19)
+ 434:             4             96  java.io.OutputStreamWriter (java.base@11.0.19)
+ 435:             4             96  java.lang.NamedPackage (java.base@11.0.19)
+ 436:             3             96  java.lang.Runtime$Version (java.base@11.0.19)
+ 437:             3             96  java.lang.invoke.SimpleMethodHandle (java.base@11.0.19)
+ 438:             4             96  java.lang.module.ModuleDescriptor$Modifier (java.base@11.0.19)
+ 439:             4             96  java.lang.module.ModuleDescriptor$Requires$Modifier (java.base@11.0.19)
+ 440:             6             96  java.net.InetSocketAddress (java.base@11.0.19)
+ 441:             4             96  java.util.LinkedList$Node (java.base@11.0.19)
+ 442:             2             96  java.util.concurrent.ConcurrentSkipListMap (java.base@11.0.19)
+ 443:             4             96  java.util.jar.Manifest (java.base@11.0.19)
+ 444:             6             96  java.util.regex.Pattern$$Lambda$17/0x000000010009a040 (java.base@11.0.19)
+ 445:             4             96  java.util.regex.Pattern$$Lambda$19/0x0000000100099840 (java.base@11.0.19)
+ 446:             6             96  java.util.regex.Pattern$BitClass$$Lambda$16/0x000000010009ac40 (java.base@11.0.19)
+ 447:             6             96  java.util.regex.Pattern$BranchConn (java.base@11.0.19)
+ 448:             4             96  java.util.regex.Pattern$Qtype (java.base@11.0.19)
+ 449:             4             96  java.util.regex.Pattern$Slice (java.base@11.0.19)
+ 450:             4             96  java.util.stream.StreamShape (java.base@11.0.19)
+ 451:             1             96  jdk.internal.jimage.ImageReader$SharedImageReader (java.base@11.0.19)
+ 452:             6             96  jdk.internal.loader.ClassLoaderValue (java.base@11.0.19)
+ 453:             4             96  jdk.internal.logger.BootstrapLogger$LoggingBackend (java.base@11.0.19)
+ 454:             2             96  org.jetbrains.jps.builders.java.dependencyView.IntIntPersistentMultiMaplet$1
+ 455:             6             96  org.jetbrains.jps.model.impl.JpsDummyElementImpl
+ 456:             4             96  org.jetbrains.jps.model.impl.JpsUrlListImpl
+ 457:             4             96  org.jetbrains.jps.model.java.JpsJavaClasspathKind
+ 458:             4             96  sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl (java.base@11.0.19)
+ 459:             4             96  sun.reflect.generics.tree.FormalTypeParameter (java.base@11.0.19)
+ 460:             3             96  sun.security.util.LazyCodeSourcePermissionCollection (java.base@11.0.19)
+ 461:             3             96  sun.util.locale.provider.LocaleResources (java.base@11.0.19)
+ 462:             1             88  [Lnet.jpountz.lz4.LZ4Compressor;
+ 463:             2             88  [Lsun.security.jca.ProviderConfig; (java.base@11.0.19)
+ 464:             2             80  [F (java.base@11.0.19)
+ 465:             1             80  [Lio.netty.handler.codec.CodecOutputList;
+ 466:             1             80  [Ljava.util.List; (java.base@11.0.19)
+ 467:             1             80  [Ljava.util.concurrent.locks.Lock; (java.base@11.0.19)
+ 468:             2             80  [Ljava.util.stream.StreamOpFlag$Type; (java.base@11.0.19)
+ 469:             1             80  com.intellij.openapi.diagnostic.RollingFileHandler
+ 470:             2             80  com.intellij.util.concurrency.BoundedTaskExecutor
+ 471:             5             80  com.intellij.util.io.keyStorage.InlinedKeyStorage
+ 472:             1             80  io.netty.buffer.PoolChunk
+ 473:             1             80  io.netty.buffer.PooledDirectByteBuf
+ 474:             1             80  it.unimi.dsi.fastutil.objects.Object2LongOpenCustomHashMap
+ 475:             2             80  java.io.BufferedWriter (java.base@11.0.19)
+ 476:             2             80  java.io.ExpiringCache (java.base@11.0.19)
+ 477:             2             80  java.io.FileOutputStream (java.base@11.0.19)
+ 478:             2             80  java.io.PrintStream (java.base@11.0.19)
+ 479:             2             80  java.lang.ModuleLayer (java.base@11.0.19)
+ 480:             2             80  java.lang.UnsupportedOperationException (java.base@11.0.19)
+ 481:             2             80  java.lang.VirtualMachineError (java.base@11.0.19)
+ 482:             1             80  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLLIILL (java.base@11.0.19)
+ 483:             1             80  java.lang.invoke.BoundMethodHandle$Species_LLLLLLLLLLLLL (java.base@11.0.19)
+ 484:             2             80  java.lang.invoke.VarHandleObjects$Array (java.base@11.0.19)
+ 485:             2             80  java.lang.module.Configuration (java.base@11.0.19)
+ 486:             5             80  java.util.HashMap$KeySet (java.base@11.0.19)
+ 487:             2             80  java.util.Locale$Category (java.base@11.0.19)
+ 488:             2             80  jdk.internal.math.FloatingDecimal$BinaryToASCIIBuffer (java.base@11.0.19)
+ 489:             1             80  org.jetbrains.jps.model.java.impl.compiler.JpsJavaCompilerConfigurationImpl
+ 490:             2             80  sun.nio.ch.SocketAdaptor (java.base@11.0.19)
+ 491:             1             80  sun.util.cldr.CLDRLocaleProviderAdapter (java.base@11.0.19)
+ 492:             1             80  sun.util.locale.provider.LocaleProviderAdapter$NonExistentAdapter (java.base@11.0.19)
+ 493:             2             72  [Ljava.lang.Runnable; (java.base@11.0.19)
+ 494:             3             72  com.intellij.util.ThreeState
+ 495:             1             72  io.netty.channel.socket.nio.NioSocketChannel$NioSocketChannelConfig
+ 496:             3             72  io.netty.util.Recycler$DefaultHandle
+ 497:             3             72  io.netty.util.Recycler$LocalPool
+ 498:             1             72  it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap
+ 499:             3             72  java.lang.WeakPairMap (java.base@11.0.19)
+ 500:             3             72  java.lang.annotation.RetentionPolicy (java.base@11.0.19)
+ 501:             3             72  java.lang.invoke.MethodHandles$Lookup (java.base@11.0.19)
+ 502:             3             72  java.lang.invoke.StringConcatFactory$Mode (java.base@11.0.19)
+ 503:             3             72  java.security.DrbgParameters$Capability (java.base@11.0.19)
+ 504:             1             72  java.security.SecureRandom (java.base@11.0.19)
+ 505:             3             72  java.security.SecurityPermission (java.base@11.0.19)
+ 506:             3             72  java.time.Instant (java.base@11.0.19)
+ 507:             3             72  java.time.ZoneOffset (java.base@11.0.19)
+ 508:             1             72  java.util.concurrent.ThreadPoolExecutor (java.base@11.0.19)
+ 509:             3             72  java.util.regex.Pattern$CharPropertyGreedy (java.base@11.0.19)
+ 510:             3             72  java.util.regex.Pattern$Start (java.base@11.0.19)
+ 511:             3             72  java.util.stream.Collector$Characteristics (java.base@11.0.19)
+ 512:             3             72  java.util.stream.MatchOps$MatchKind (java.base@11.0.19)
+ 513:             3             72  jdk.internal.math.FloatingDecimal$ExceptionalBinaryToASCIIBuffer (java.base@11.0.19)
+ 514:             3             72  jdk.internal.module.IllegalAccessLogger$Mode (java.base@11.0.19)
+ 515:             3             72  org.jetbrains.jps.api.CmdlineRemoteProto$Message$Type
+ 516:             3             72  org.jetbrains.jps.incremental.fs.FilesDelta
+ 517:             3             72  org.jetbrains.jps.indices.impl.ModuleExcludeIndexImpl$FileLocation
+ 518:             3             72  org.jetbrains.jps.intellilang.instrumentation.InstrumentationType
+ 519:             3             72  org.jetbrains.jps.model.library.JpsLibraryRoot$InclusionOptions
+ 520:             3             72  org.jetbrains.jps.model.library.impl.JpsLibraryRootRole
+ 521:             2             64  [Ljava.lang.annotation.RetentionPolicy; (java.base@11.0.19)
+ 522:             1             64  [Ljava.lang.invoke.MethodHandleImpl$Intrinsic; (java.base@11.0.19)
+ 523:             2             64  [Ljava.nio.charset.CoderResult; (java.base@11.0.19)
+ 524:             2             64  [Ljava.util.stream.Collector$Characteristics; (java.base@11.0.19)
+ 525:             1             64  [Lorg.jdom.AttributeType;
+ 526:             2             64  com.fasterxml.aalto.in.ReaderConfig$EncodingContext
+ 527:             1             64  com.google.protobuf.CodedInputStream$ArrayDecoder
+ 528:             2             64  com.intellij.util.EventDispatcher
+ 529:             2             64  com.intellij.util.io.StorageLockContext
+ 530:             4             64  com.sun.proxy.$Proxy2
+ 531:             2             64  io.netty.buffer.EmptyByteBuf
+ 532:             2             64  io.netty.buffer.PoolThreadCache$NormalMemoryRegionCache
+ 533:             1             64  io.netty.buffer.PooledByteBufAllocator
+ 534:             2             64  io.netty.channel.AdaptiveRecvByteBufAllocator
+ 535:             1             64  io.netty.channel.ChannelOutboundBuffer
+ 536:             1             64  io.netty.channel.ChannelOutboundBuffer$Entry
+ 537:             1             64  io.netty.channel.DefaultChannelPipeline$HeadContext
+ 538:             2             64  io.netty.util.concurrent.DefaultPromise
+ 539:             1             64  io.netty.util.concurrent.GlobalEventExecutor
+ 540:             4             64  io.netty.util.internal.ObjectPool$RecyclerObjectPool
+ 541:             4             64  io.netty.util.internal.TypeParameterMatcher$ReflectiveMatcher
+ 542:             2             64  java.lang.invoke.VarHandleLongs$FieldInstanceReadWrite (java.base@11.0.19)
+ 543:             2             64  java.lang.ref.ReferenceQueue$Null (java.base@11.0.19)
+ 544:             2             64  java.security.BasicPermissionCollection (java.base@11.0.19)
+ 545:             2             64  java.security.MessageDigest$Delegate (java.base@11.0.19)
+ 546:             4             64  java.util.HashMap$Values (java.base@11.0.19)
+ 547:             2             64  java.util.LinkedList (java.base@11.0.19)
+ 548:             4             64  java.util.concurrent.ConcurrentHashMap$ValuesView (java.base@11.0.19)
+ 549:             4             64  java.util.jar.Attributes (java.base@11.0.19)
+ 550:             1             64  java.util.logging.LogManager$RootLogger (java.logging@11.0.19)
+ 551:             2             64  java.util.stream.FindOps$FindOp (java.base@11.0.19)
+ 552:             2             64  org.jetbrains.jps.builders.java.FilteredResourceRootDescriptor
+ 553:             1             64  org.jetbrains.jps.cmdline.ProjectDescriptor
+ 554:             2             64  org.jetbrains.jps.incremental.groovy.GroovyBuilder
+ 555:             4             64  org.jetbrains.jps.model.impl.JpsUrlListRole
+ 556:             2             56  [Ljava.nio.file.OpenOption; (java.base@11.0.19)
+ 557:             1             56  [Ljava.util.logging.Level; (java.logging@11.0.19)
+ 558:             1             56  [[I (java.base@11.0.19)
+ 559:             1             56  com.intellij.util.containers.hash.LinkedHashMap
+ 560:             1             56  io.netty.channel.DefaultChannelPipeline$TailContext
+ 561:             1             56  java.lang.invoke.BoundMethodHandle$Specializer (java.base@11.0.19)
+ 562:             1             56  java.lang.invoke.BoundMethodHandle$Species_LIILLL (java.base@11.0.19)
+ 563:             1             56  java.net.SocketPermission (java.base@11.0.19)
+ 564:             1             56  java.util.logging.LogManager (java.logging@11.0.19)
+ 565:             1             56  jdk.internal.ref.CleanerImpl$SoftCleanableRef (java.base@11.0.19)
+ 566:             1             56  org.jetbrains.jps.api.CmdlineRemoteProto$Message
+ 567:             1             56  org.jetbrains.jps.api.CmdlineRemoteProto$Message$BuilderMessage
+ 568:             1             56  org.jetbrains.jps.incremental.storage.BuildDataManager
+ 569:             1             56  sun.nio.ch.SinkChannelImpl (java.base@11.0.19)
+ 570:             1             56  sun.nio.ch.SourceChannelImpl (java.base@11.0.19)
+ 571:             1             48  [Lcom.google.protobuf.GeneratedMessageLite$MethodToInvoke;
+ 572:             3             48  [Ljava.lang.annotation.Annotation; (java.base@11.0.19)
+ 573:             1             48  [Ljava.util.concurrent.TimeUnit; (java.base@11.0.19)
+ 574:             1             48  [Lorg.jdom.Content$CType;
+ 575:             1             48  [Lorg.jetbrains.jps.api.CmdlineRemoteProto$Message$BuilderMessage$Type;
+ 576:             1             48  [Lorg.jetbrains.jps.incremental.BuilderCategory;
+ 577:             1             48  [Lsun.nio.ch.SelectionKeyImpl; (java.base@11.0.19)
+ 578:             1             48  com.fasterxml.aalto.in.ByteBasedPNameTable
+ 579:             2             48  com.fasterxml.aalto.in.NsBinding
+ 580:             2             48  com.google.protobuf.ProtoSyntax
+ 581:             2             48  com.google.protobuf.Writer$FieldOrder
+ 582:             2             48  com.intellij.openapi.diagnostic.IdeaLogRecordFormatter
+ 583:             1             48  com.intellij.openapi.diagnostic.JulLogger$OptimizedConsoleHandler
+ 584:             2             48  com.intellij.openapi.util.LowMemoryWatcher$LowMemoryWatcherType
+ 585:             2             48  com.intellij.openapi.util.NotNullLazyValue$2
+ 586:             2             48  com.intellij.openapi.util.Pair
+ 587:             3             48  com.intellij.openapi.util.io.FileFilters$$Lambda$128/0x000000010027fc40
+ 588:             2             48  com.intellij.util.EventDispatcher$$Lambda$75/0x00000001001e6c40
+ 589:             2             48  com.intellij.util.PathUtilRt$Platform
+ 590:             2             48  com.intellij.util.containers.ConcurrentFactoryMap$2
+ 591:             2             48  com.intellij.util.containers.DisposableWrapperList
+ 592:             1             48  com.intellij.util.io.FilePageCache$1
+ 593:             2             48  io.netty.buffer.PoolArena$SizeClass
+ 594:             1             48  io.netty.buffer.PoolThreadCache
+ 595:             1             48  io.netty.channel.AbstractChannel$CloseFuture
+ 596:             1             48  io.netty.channel.DefaultChannelPipeline
+ 597:             2             48  io.netty.channel.VoidChannelPromise
+ 598:             3             48  io.netty.util.concurrent.PromiseTask$SentinelRunnable
+ 599:             2             48  io.netty.util.internal.DefaultPriorityQueue
+ 600:             3             48  it.unimi.dsi.fastutil.objects.Object2ObjectOpenCustomHashMap$MapEntrySet
+ 601:             2             48  java.io.File$PathStatus (java.base@11.0.19)
+ 602:             2             48  java.lang.ClassValue$Version (java.base@11.0.19)
+ 603:             1             48  java.lang.ProcessEnvironment (java.base@11.0.19)
+ 604:             1             48  java.lang.StackTraceElement (java.base@11.0.19)
+ 605:             2             48  java.lang.StringCoding$Result (java.base@11.0.19)
+ 606:             2             48  java.lang.ThreadLocal$ThreadLocalMap (java.base@11.0.19)
+ 607:             1             48  java.lang.invoke.BoundMethodHandle$Specializer$Factory (java.base@11.0.19)
+ 608:             1             48  java.lang.invoke.BoundMethodHandle$Species_LLLL (java.base@11.0.19)
+ 609:             2             48  java.lang.management.ManagementPermission (java.management@11.0.19)
+ 610:             2             48  java.lang.reflect.ReflectPermission (java.base@11.0.19)
+ 611:             2             48  java.net.StandardProtocolFamily (java.base@11.0.19)
+ 612:             3             48  java.nio.channels.FileChannel$MapMode (java.base@11.0.19)
+ 613:             3             48  java.nio.charset.CodingErrorAction (java.base@11.0.19)
+ 614:             3             48  java.util.IdentityHashMap$KeySet (java.base@11.0.19)
+ 615:             3             48  java.util.Optional (java.base@11.0.19)
+ 616:             3             48  java.util.ResourceBundle$NoFallbackControl (java.base@11.0.19)
+ 617:             1             48  java.util.TreeMap (java.base@11.0.19)
+ 618:             3             48  java.util.concurrent.ConcurrentHashMap$EntrySetView (java.base@11.0.19)
+ 619:             1             48  java.util.concurrent.ThreadPoolExecutor$Worker (java.base@11.0.19)
+ 620:             2             48  java.util.logging.Logger$LoggerBundle (java.logging@11.0.19)
+ 621:             2             48  java.util.logging.LoggingPermission (java.logging@11.0.19)
+ 622:             1             48  jdk.internal.jimage.ImageHeader (java.base@11.0.19)
+ 623:             2             48  jdk.internal.misc.Signal (java.base@11.0.19)
+ 624:             2             48  jdk.internal.misc.Signal$NativeHandler (java.base@11.0.19)
+ 625:             3             48  jdk.internal.module.ServicesCatalog (java.base@11.0.19)
+ 626:             1             48  jdk.internal.ref.CleanerImpl$WeakCleanableRef (java.base@11.0.19)
+ 627:             1             48  org.jetbrains.jps.api.CmdlineRemoteProto$Message$UUID
+ 628:             2             48  org.jetbrains.jps.builders.java.JavaModuleBuildTargetType
+ 629:             2             48  org.jetbrains.jps.builders.java.ResourcesTargetType
+ 630:             2             48  org.jetbrains.jps.builders.java.dependencyView.IntIntPersistentMultiMaplet
+ 631:             1             48  org.jetbrains.jps.builders.java.dependencyView.IntObjectPersistentMultiMaplet$1
+ 632:             1             48  org.jetbrains.jps.builders.java.dependencyView.NaturalIntIntPersistentMultiMaplet$2
+ 633:             1             48  org.jetbrains.jps.builders.java.dependencyView.ObjectObjectPersistentMultiMaplet$1
+ 634:             2             48  org.jetbrains.jps.gradle.model.impl.GradleResourcesTargetType
+ 635:             2             48  org.jetbrains.jps.incremental.groovy.CheckResourcesTarget
+ 636:             2             48  org.jetbrains.jps.incremental.groovy.CheckResourcesTarget$Type
+ 637:             2             48  org.jetbrains.jps.incremental.relativizer.CommonPathRelativizer
+ 638:             2             48  org.jetbrains.jps.maven.model.impl.MavenAnnotationProcessorTargetType
+ 639:             2             48  org.jetbrains.jps.maven.model.impl.MavenResourcesTargetType
+ 640:             2             48  org.jetbrains.jps.model.java.JavaResourceRootType
+ 641:             2             48  org.jetbrains.jps.model.java.JavaSourceRootType
+ 642:             2             48  org.jetbrains.jps.model.java.impl.compiler.JpsCompilerExcludesImpl
+ 643:             1             48  org.jetbrains.jps.model.java.impl.compiler.ProcessorConfigProfileImpl
+ 644:             3             48  org.jetbrains.jps.model.library.impl.JpsLibraryCollectionImpl
+ 645:             2             48  org.jetbrains.jps.model.module.impl.JpsSdkReferencesTableImpl
+ 646:             2             48  org.jetbrains.jps.model.serialization.library.JpsLibraryRootTypeSerializer
+ 647:             1             48  org.jetbrains.kotlin.jps.model.Kotlin2JsCompilerArgumentsSerializer$1
+ 648:             1             48  org.jetbrains.kotlin.jps.model.Kotlin2JvmCompilerArgumentsSerializer$1
+ 649:             1             48  org.jetbrains.kotlin.jps.model.KotlinCommonCompilerArgumentsSerializer$1
+ 650:             1             48  org.jetbrains.kotlin.jps.model.KotlinCompilerSettingsSerializer$1
+ 651:             1             48  org.jetbrains.kotlin.jps.model.KotlinJpsPluginSettingsSerializer$1
+ 652:             3             48  sun.nio.ch.FileDispatcherImpl (java.base@11.0.19)
+ 653:             2             48  sun.nio.ch.NativeThreadSet (java.base@11.0.19)
+ 654:             1             48  sun.nio.ch.SelectionKeyImpl (java.base@11.0.19)
+ 655:             1             48  sun.nio.ch.WindowsSelectorImpl$FdMap (java.base@11.0.19)
+ 656:             2             48  sun.security.jca.ProviderList (java.base@11.0.19)
+ 657:             2             48  sun.security.jca.ProviderList$3 (java.base@11.0.19)
+ 658:             1             48  sun.security.provider.MoreDrbgParameters (java.base@11.0.19)
+ 659:             1             40  [Lcom.intellij.diagnostic.LoadingState;
+ 660:             1             40  [Lcom.intellij.util.system.CpuArch;
+ 661:             1             40  [Ljava.lang.Thread$State; (java.base@11.0.19)
+ 662:             1             40  [Ljava.lang.invoke.StringConcatFactory$Strategy; (java.base@11.0.19)
+ 663:             1             40  [Ljava.lang.invoke.VarHandle$AccessType; (java.base@11.0.19)
+ 664:             1             40  [Ljava.nio.charset.Charset; (java.base@11.0.19)
+ 665:             1             40  [Ljava.util.stream.StreamOpFlag; (java.base@11.0.19)
+ 666:             1             40  [Lsun.nio.fs.WindowsPathType; (java.base@11.0.19)
+ 667:             1             40  [Lsun.util.locale.provider.LocaleProviderAdapter$Type; (java.base@11.0.19)
+ 668:             1             40  [[Ljava.lang.invoke.LambdaForm$Name; (java.base@11.0.19)
+ 669:             1             40  com.intellij.openapi.fileTypes.impl.FileTypeAssocTable
+ 670:             1             40  com.intellij.util.io.DirectByteBufferAllocator
+ 671:             1             40  com.intellij.util.io.OpenChannelsCache
+ 672:             1             40  com.sun.management.internal.DiagnosticCommandImpl (jdk.management@11.0.19)
+ 673:             1             40  io.netty.buffer.LongLongHashMap
+ 674:             1             40  io.netty.buffer.PoolThreadCache$MemoryRegionCache$Entry
+ 675:             1             40  io.netty.channel.socket.nio.NioSocketChannel$NioSocketChannelUnsafe
+ 676:             1             40  io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder
+ 677:             1             40  io.netty.util.concurrent.DefaultPromise$StacklessCancellationException
+ 678:             1             40  java.io.BufferedInputStream (java.base@11.0.19)
+ 679:             1             40  java.io.FileInputStream (java.base@11.0.19)
+ 680:             1             40  java.lang.ArithmeticException (java.base@11.0.19)
+ 681:             1             40  java.lang.NullPointerException (java.base@11.0.19)
+ 682:             1             40  java.lang.Package$VersionInfo (java.base@11.0.19)
+ 683:             1             40  java.lang.invoke.BoundMethodHandle$Species_LLL (java.base@11.0.19)
+ 684:             1             40  java.lang.invoke.MethodHandleImpl$IntrinsicMethodHandle (java.base@11.0.19)
+ 685:             1             40  java.util.ResourceBundle$2 (java.base@11.0.19)
+ 686:             1             40  jdk.internal.ref.CleanerImpl$CleanerCleanable (java.base@11.0.19)
+ 687:             1             40  jdk.internal.reflect.UnsafeQualifiedStaticLongFieldAccessorImpl (java.base@11.0.19)
+ 688:             1             40  net.jpountz.lz4.LZ4Factory
+ 689:             1             40  org.jetbrains.jps.builders.java.JavaSourceRootDescriptor
+ 690:             1             40  org.jetbrains.jps.cmdline.PreloadedData
+ 691:             1             40  org.jetbrains.jps.incremental.storage.BuildTargetsState
+ 692:             1             40  org.jetbrains.jps.incremental.storage.FileTimestampStorage
+ 693:             1             40  org.jetbrains.jps.incremental.storage.OneToManyPathsMapping
+ 694:             1             40  org.jetbrains.jps.incremental.storage.OutputToTargetRegistry
+ 695:             1             40  org.jetbrains.jps.model.impl.JpsGlobalImpl
+ 696:             1             40  org.jetbrains.jps.model.impl.JpsProjectImpl
+ 697:             1             40  org.jetbrains.jps.model.java.compiler.EclipseCompilerOptions
+ 698:             1             40  org.jetbrains.jps.model.java.impl.JpsJavaModuleExtensionImpl
+ 699:             1             40  sun.nio.ch.FileChannelImpl$Unmapper (java.base@11.0.19)
+ 700:             1             40  sun.nio.ch.WindowsSelectorImpl$SubSelector (java.base@11.0.19)
+ 701:             1             40  sun.nio.cs.StandardCharsets$Aliases (java.base@11.0.19)
+ 702:             1             40  sun.nio.cs.StandardCharsets$Cache (java.base@11.0.19)
+ 703:             1             40  sun.nio.cs.StandardCharsets$Classes (java.base@11.0.19)
+ 704:             1             40  sun.text.resources.cldr.FormatData (java.base@11.0.19)
+ 705:             1             40  sun.text.resources.cldr.ext.FormatData_ko (jdk.localedata@11.0.19)
+ 706:             1             40  sun.util.resources.Bundles$1 (java.base@11.0.19)
+ 707:             1             40  sun.util.resources.cldr.CalendarData (java.base@11.0.19)
+ 708:             1             32  [Lcom.intellij.util.ThreeState;
+ 709:             1             32  [Lio.netty.util.ResourceLeakDetector$Level;
+ 710:             2             32  [Ljava.io.File; (java.base@11.0.19)
+ 711:             1             32  [Ljava.lang.OutOfMemoryError; (java.base@11.0.19)
+ 712:             1             32  [Ljava.lang.ThreadGroup; (java.base@11.0.19)
+ 713:             1             32  [Ljava.lang.invoke.StringConcatFactory$Mode; (java.base@11.0.19)
+ 714:             1             32  [Ljava.lang.module.ModuleDescriptor$Modifier; (java.base@11.0.19)
+ 715:             1             32  [Ljava.lang.module.ModuleDescriptor$Requires$Modifier; (java.base@11.0.19)
+ 716:             1             32  [Ljava.security.DrbgParameters$Capability; (java.base@11.0.19)
+ 717:             2             32  [Ljava.security.cert.Certificate; (java.base@11.0.19)
+ 718:             2             32  [Ljava.util.Map$Entry; (java.base@11.0.19)
+ 719:             1             32  [Ljava.util.regex.Pattern$Qtype; (java.base@11.0.19)
+ 720:             1             32  [Ljava.util.stream.MatchOps$MatchKind; (java.base@11.0.19)
+ 721:             1             32  [Ljava.util.stream.StreamShape; (java.base@11.0.19)
+ 722:             1             32  [Ljdk.internal.logger.BootstrapLogger$LoggingBackend; (java.base@11.0.19)
+ 723:             1             32  [Ljdk.internal.module.IllegalAccessLogger$Mode; (java.base@11.0.19)
+ 724:             1             32  [Lorg.jetbrains.jps.api.CmdlineRemoteProto$Message$Type;
+ 725:             1             32  [Lorg.jetbrains.jps.indices.impl.ModuleExcludeIndexImpl$FileLocation;
+ 726:             1             32  [Lorg.jetbrains.jps.intellilang.instrumentation.InstrumentationType;
+ 727:             1             32  [Lorg.jetbrains.jps.model.java.JpsJavaClasspathKind;
+ 728:             1             32  [Lorg.jetbrains.jps.model.library.JpsLibraryRoot$InclusionOptions;
+ 729:             1             32  [Lorg.jetbrains.jps.model.serialization.JpsGlobalExtensionSerializer;
+ 730:             1             32  [Lsun.nio.fs.NativeBuffer; (java.base@11.0.19)
+ 731:             1             32  com.fasterxml.aalto.util.BufferRecycler
+ 732:             2             32  com.fasterxml.aalto.util.UriCanonicalizer
+ 733:             1             32  com.fasterxml.aalto.util.XmlCharTypes
+ 734:             1             32  com.google.protobuf.DescriptorMessageInfoFactory$IsInitializedCheckAnalyzer
+ 735:             1             32  com.google.protobuf.UnknownFieldSetLite
+ 736:             2             32  com.google.protobuf.UnknownFieldSetSchema
+ 737:             2             32  com.intellij.openapi.util.ThreadLocalCachedByteArray
+ 738:             2             32  com.intellij.openapi.util.io.PathExecLazyValue$$Lambda$70/0x00000001001ad840
+ 739:             2             32  com.intellij.util.EventDispatcher$$Lambda$74/0x00000001001e6840
+ 740:             2             32  com.intellij.util.containers.FastUtilCharSequenceHashingStrategy
+ 741:             2             32  com.intellij.util.containers.LockFreeCopyOnWriteArrayList
+ 742:             1             32  com.intellij.util.containers.WeakList
+ 743:             1             32  com.intellij.util.io.CachingEnumerator
+ 744:             1             32  com.intellij.util.io.PersistentHashMapValueStorage$1
+ 745:             1             32  com.intellij.util.io.PersistentHashMapValueStorage$2
+ 746:             1             32  com.intellij.util.io.PersistentHashMapValueStorage$3
+ 747:             1             32  com.intellij.util.text.CharArrayCharSequence
+ 748:             1             32  io.netty.buffer.UnpooledByteBufAllocator
+ 749:             1             32  io.netty.channel.DefaultChannelId
+ 750:             1             32  io.netty.channel.nio.NioEventLoopGroup
+ 751:             1             32  io.netty.handler.codec.CodecOutputList$CodecOutputLists
+ 752:             1             32  io.netty.handler.codec.protobuf.ProtobufDecoder
+ 753:             1             32  io.netty.util.ResourceLeakDetector
+ 754:             1             32  io.netty.util.concurrent.DefaultThreadFactory
+ 755:             2             32  io.netty.util.internal.logging.Slf4JLoggerFactory
+ 756:             1             32  java.io.WinNTFileSystem (java.base@11.0.19)
+ 757:             2             32  java.lang.Boolean (java.base@11.0.19)
+ 758:             2             32  java.lang.ClassValue$Identity (java.base@11.0.19)
+ 759:             2             32  java.lang.Shutdown$Lock (java.base@11.0.19)
+ 760:             1             32  java.lang.module.ModuleDescriptor$Version (java.base@11.0.19)
+ 761:             2             32  java.nio.ByteOrder (java.base@11.0.19)
+ 762:             1             32  java.nio.channels.Channels$1 (java.base@11.0.19)
+ 763:             2             32  java.nio.channels.spi.AbstractInterruptibleChannel$1 (java.base@11.0.19)
+ 764:             2             32  java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet (java.base@11.0.19)
+ 765:             2             32  java.util.Comparator$$Lambda$67/0x00000001001aec40 (java.base@11.0.19)
+ 766:             2             32  java.util.LinkedHashMap$LinkedEntrySet (java.base@11.0.19)
+ 767:             1             32  java.util.Random (java.base@11.0.19)
+ 768:             2             32  java.util.ResourceBundle$SingleFormatControl (java.base@11.0.19)
+ 769:             1             32  java.util.Stack (java.base@11.0.19)
+ 770:             1             32  java.util.UUID (java.base@11.0.19)
+ 771:             1             32  java.util.concurrent.CountDownLatch$Sync (java.base@11.0.19)
+ 772:             1             32  java.util.concurrent.SynchronousQueue (java.base@11.0.19)
+ 773:             1             32  java.util.concurrent.SynchronousQueue$TransferStack$SNode (java.base@11.0.19)
+ 774:             1             32  java.util.concurrent.ThreadLocalRandom (java.base@11.0.19)
+ 775:             2             32  java.util.concurrent.atomic.AtomicReference (java.base@11.0.19)
+ 776:             2             32  java.util.logging.ErrorManager (java.logging@11.0.19)
+ 777:             1             32  java.util.logging.LogManager$SystemLoggerContext (java.logging@11.0.19)
+ 778:             2             32  java.util.regex.Pattern$$Lambda$50/0x00000001000c8c40 (java.base@11.0.19)
+ 779:             1             32  java.util.regex.Pattern$BnM (java.base@11.0.19)
+ 780:             1             32  java.util.regex.Pattern$Curly (java.base@11.0.19)
+ 781:             1             32  java.util.stream.Collectors$CollectorImpl (java.base@11.0.19)
+ 782:             1             32  jdk.internal.ref.CleanerImpl (java.base@11.0.19)
+ 783:             2             32  jdk.internal.reflect.BootstrapConstructorAccessorImpl (java.base@11.0.19)
+ 784:             1             32  jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl (java.base@11.0.19)
+ 785:             1             32  org.jetbrains.jps.builders.JpsBuildBundle
+ 786:             1             32  org.jetbrains.jps.builders.impl.BuildRootIndexImpl
+ 787:             1             32  org.jetbrains.jps.builders.impl.BuildTargetIndexImpl
+ 788:             1             32  org.jetbrains.jps.builders.java.dependencyView.DependencyContext
+ 789:             2             32  org.jetbrains.jps.builders.java.dependencyView.IntIntPersistentMultiMaplet$IntSetExternalizer
+ 790:             1             32  org.jetbrains.jps.builders.java.dependencyView.Mappings$1
+ 791:             1             32  org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler
+ 792:             1             32  org.jetbrains.jps.cmdline.BuildRunner
+ 793:             1             32  org.jetbrains.jps.cmdline.JpsModelLoaderImpl
+ 794:             1             32  org.jetbrains.jps.devkit.DevKitJpsBundle
+ 795:             1             32  org.jetbrains.jps.incremental.BuilderRegistry
+ 796:             1             32  org.jetbrains.jps.incremental.CompilerEncodingConfiguration
+ 797:             1             32  org.jetbrains.jps.incremental.fs.BuildFSState
+ 798:             2             32  org.jetbrains.jps.incremental.groovy.CompilingGroovycRunner
+ 799:             1             32  org.jetbrains.jps.incremental.groovy.GreclipseBuilder
+ 800:             1             32  org.jetbrains.jps.incremental.groovy.GroovyJpsBundle
+ 801:             1             32  org.jetbrains.jps.incremental.instrumentation.NotNullInstrumentingBuilder
+ 802:             1             32  org.jetbrains.jps.indices.impl.ModuleExcludeIndexImpl
+ 803:             1             32  org.jetbrains.jps.javaee.JavaeeJpsBundle
+ 804:             1             32  org.jetbrains.jps.model.java.compiler.JpsJavaCompilerOptions
+ 805:             1             32  org.jetbrains.jps.model.java.compiler.RmicCompilerOptions
+ 806:             1             32  org.jetbrains.jps.model.library.impl.JpsSdkReferenceImpl
+ 807:             1             32  org.jetbrains.jps.model.module.impl.JpsModuleImpl
+ 808:             1             32  org.jetbrains.jps.model.module.impl.JpsModuleSourceRootImpl
+ 809:             1             32  org.jetbrains.jps.service.impl.JpsServiceManagerImpl
+ 810:             1             32  sun.nio.ch.AllocatedNativeObject (java.base@11.0.19)
+ 811:             2             32  sun.nio.ch.FileChannelImpl$Closer (java.base@11.0.19)
+ 812:             1             32  sun.nio.ch.PollArrayWrapper (java.base@11.0.19)
+ 813:             2             32  sun.nio.ch.SocketDispatcher (java.base@11.0.19)
+ 814:             1             32  sun.nio.cs.StandardCharsets (java.base@11.0.19)
+ 815:             1             32  sun.nio.fs.NativeBuffer (java.base@11.0.19)
+ 816:             2             32  sun.util.resources.LocaleData (java.base@11.0.19)
+ 817:             1             24  [Lcom.google.protobuf.MessageInfoFactory;
+ 818:             1             24  [Lcom.google.protobuf.ProtoSyntax;
+ 819:             1             24  [Lcom.google.protobuf.Writer$FieldOrder;
+ 820:             1             24  [Lcom.intellij.openapi.util.LowMemoryWatcher$LowMemoryWatcherType;
+ 821:             1             24  [Lcom.intellij.util.PathUtilRt$Platform;
+ 822:             1             24  [Lio.netty.buffer.PoolArena$SizeClass;
+ 823:             1             24  [Lio.netty.util.concurrent.EventExecutor;
+ 824:             1             24  [Lio.netty.util.concurrent.GenericFutureListener;
+ 825:             1             24  [Ljava.io.File$PathStatus; (java.base@11.0.19)
+ 826:             1             24  [Ljava.net.StandardProtocolFamily; (java.base@11.0.19)
+ 827:             1             24  [Ljava.nio.channels.SelectionKey; (java.base@11.0.19)
+ 828:             1             24  [Ljava.nio.file.LinkOption; (java.base@11.0.19)
+ 829:             1             24  [Ljava.util.Locale$Category; (java.base@11.0.19)
+ 830:             1             24  [Lorg.jetbrains.jps.gradle.model.impl.GradleResourcesTargetType;
+ 831:             1             24  [Lorg.jetbrains.jps.incremental.groovy.CheckResourcesTarget$Type;
+ 832:             1             24  [Lorg.jetbrains.jps.maven.model.impl.MavenResourcesTargetType;
+ 833:             1             24  [Lorg.jetbrains.jps.model.serialization.library.JpsLibraryRootTypeSerializer;
+ 834:             1             24  com.fasterxml.aalto.in.FixedNsContext
+ 835:             1             24  com.google.protobuf.Protobuf
+ 836:             1             24  com.intellij.openapi.diagnostic.RollingFileHandler$MeteredOutputStream
+ 837:             1             24  com.intellij.openapi.fileTypes.WildcardFileNameMatcher
+ 838:             1             24  com.intellij.openapi.fileTypes.impl.IgnoredPatternSet
+ 839:             1             24  com.intellij.openapi.util.TextRange
+ 840:             1             24  com.intellij.util.ConcurrencyUtil$$Lambda$76/0x00000001001e6440
+ 841:             1             24  com.intellij.util.containers.ContainerUtil$8
+ 842:             1             24  com.intellij.util.containers.IntKeyWeakValueHashMap
+ 843:             1             24  com.intellij.util.containers.MultiMap$EmptyMap
+ 844:             1             24  com.intellij.util.io.PersistentStringEnumerator
+ 845:             1             24  com.sun.management.internal.PlatformMBeanProviderImpl$1 (jdk.management@11.0.19)
+ 846:             1             24  com.sun.management.internal.PlatformMBeanProviderImpl$2 (jdk.management@11.0.19)
+ 847:             1             24  com.sun.management.internal.PlatformMBeanProviderImpl$3 (jdk.management@11.0.19)
+ 848:             1             24  com.sun.management.internal.PlatformMBeanProviderImpl$4 (jdk.management@11.0.19)
+ 849:             1             24  com.sun.management.internal.PlatformMBeanProviderImpl$5 (jdk.management@11.0.19)
+ 850:             1             24  io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache
+ 851:             1             24  io.netty.buffer.UnpooledByteBufAllocator$UnpooledByteBufAllocatorMetric
+ 852:             1             24  io.netty.channel.ChannelMetadata
+ 853:             1             24  io.netty.channel.ChannelOption$1
+ 854:             1             24  io.netty.channel.SucceededChannelFuture
+ 855:             1             24  io.netty.channel.WriteBufferWaterMark
+ 856:             1             24  io.netty.handler.codec.protobuf.ProtobufEncoder
+ 857:             1             24  io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender
+ 858:             1             24  io.netty.resolver.AddressResolverGroup$1
+ 859:             1             24  io.netty.resolver.DefaultAddressResolverGroup
+ 860:             1             24  io.netty.resolver.DefaultNameResolver
+ 861:             1             24  io.netty.resolver.InetSocketAddressResolver
+ 862:             1             24  io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory
+ 863:             1             24  io.netty.util.concurrent.DefaultEventExecutorChooserFactory$PowerOfTwoEventExecutorChooser
+ 864:             1             24  io.netty.util.concurrent.DefaultFutureListeners
+ 865:             1             24  io.netty.util.concurrent.FailedFuture
+ 866:             1             24  io.netty.util.internal.ThreadExecutorMap$1
+ 867:             1             24  io.netty.util.internal.ThreadExecutorMap$2
+ 868:             1             24  io.netty.util.internal.ThreadExecutorMap$3
+ 869:             1             24  java.lang.Double (java.base@11.0.19)
+ 870:             1             24  java.lang.StringBuilder (java.base@11.0.19)
+ 871:             1             24  java.lang.invoke.MethodType$ConcurrentWeakInternSet (java.base@11.0.19)
+ 872:             1             24  java.lang.invoke.StringConcatFactory$Stringifiers$StringifierAny (java.base@11.0.19)
+ 873:             1             24  java.lang.invoke.StringConcatFactory$Stringifiers$StringifierMost (java.base@11.0.19)
+ 874:             1             24  java.lang.management.DefaultPlatformMBeanProvider$1 (java.management@11.0.19)
+ 875:             1             24  java.lang.management.DefaultPlatformMBeanProvider$10 (java.management@11.0.19)
+ 876:             1             24  java.lang.management.DefaultPlatformMBeanProvider$11 (java.management@11.0.19)
+ 877:             1             24  java.lang.management.DefaultPlatformMBeanProvider$2 (java.management@11.0.19)
+ 878:             1             24  java.lang.management.DefaultPlatformMBeanProvider$3 (java.management@11.0.19)
+ 879:             1             24  java.lang.management.DefaultPlatformMBeanProvider$4 (java.management@11.0.19)
+ 880:             1             24  java.lang.management.DefaultPlatformMBeanProvider$5 (java.management@11.0.19)
+ 881:             1             24  java.lang.management.DefaultPlatformMBeanProvider$6 (java.management@11.0.19)
+ 882:             1             24  java.lang.management.DefaultPlatformMBeanProvider$7 (java.management@11.0.19)
+ 883:             1             24  java.lang.management.DefaultPlatformMBeanProvider$8 (java.management@11.0.19)
+ 884:             1             24  java.lang.management.DefaultPlatformMBeanProvider$9 (java.management@11.0.19)
+ 885:             1             24  java.net.Inet6AddressImpl (java.base@11.0.19)
+ 886:             1             24  java.nio.file.LinkOption (java.base@11.0.19)
+ 887:             1             24  java.security.AllPermissionCollection (java.base@11.0.19)
+ 888:             1             24  java.time.Clock$SystemClock (java.base@11.0.19)
+ 889:             1             24  java.util.Collections$3 (java.base@11.0.19)
+ 890:             1             24  java.util.Collections$EmptyMap (java.base@11.0.19)
+ 891:             1             24  java.util.Collections$SynchronizedCollection (java.base@11.0.19)
+ 892:             1             24  java.util.Collections$SynchronizedRandomAccessList (java.base@11.0.19)
+ 893:             1             24  java.util.Comparator$$Lambda$69/0x00000001001ae440 (java.base@11.0.19)
+ 894:             1             24  java.util.Locale$Cache (java.base@11.0.19)
+ 895:             1             24  java.util.ResourceBundle$Control$CandidateListCache (java.base@11.0.19)
+ 896:             1             24  java.util.concurrent.ConcurrentLinkedQueue (java.base@11.0.19)
+ 897:             1             24  java.util.concurrent.ConcurrentLinkedQueue$Node (java.base@11.0.19)
+ 898:             1             24  java.util.concurrent.Executors$RunnableAdapter (java.base@11.0.19)
+ 899:             1             24  java.util.logging.LogManager$LoggerContext (java.logging@11.0.19)
+ 900:             1             24  java.util.regex.Pattern$Dollar (java.base@11.0.19)
+ 901:             1             24  java.util.regex.Pattern$Ques (java.base@11.0.19)
+ 902:             1             24  java.util.regex.Pattern$StartS (java.base@11.0.19)
+ 903:             1             24  java.util.zip.ZipCoder$UTF8 (java.base@11.0.19)
+ 904:             1             24  jdk.internal.jimage.ImageReader (java.base@11.0.19)
+ 905:             1             24  jdk.internal.logger.BootstrapLogger$RedirectedLoggers (java.base@11.0.19)
+ 906:             1             24  jdk.internal.module.ModuleHashes (java.base@11.0.19)
+ 907:             1             24  jdk.internal.module.SystemModuleFinders$SystemModuleFinder (java.base@11.0.19)
+ 908:             1             24  jdk.management.jfr.internal.FlightRecorderMXBeanProvider$SingleMBeanComponent (jdk.management.jfr@11.0.19)
+ 909:             1             24  kotlin.SynchronizedLazyImpl
+ 910:             1             24  org.jdom.filter2.ElementFilter
+ 911:             1             24  org.jetbrains.jps.backwardRefs.JavaBackwardReferenceIndexBuilder
+ 912:             1             24  org.jetbrains.jps.builders.impl.BuildTargetRegistryImpl
+ 913:             1             24  org.jetbrains.jps.builders.java.dependencyView.ClassFileReprExternalizer
+ 914:             1             24  org.jetbrains.jps.builders.java.dependencyView.DependencyContext$1
+ 915:             1             24  org.jetbrains.jps.builders.java.dependencyView.IntObjectPersistentMultiMaplet
+ 916:             1             24  org.jetbrains.jps.builders.java.dependencyView.IntObjectPersistentMultiMaplet$CollectionDataExternalizer
+ 917:             1             24  org.jetbrains.jps.builders.java.dependencyView.NaturalIntIntPersistentMultiMaplet
+ 918:             1             24  org.jetbrains.jps.builders.java.dependencyView.ObjectObjectPersistentMultiMaplet$CollectionDataExternalizer
+ 919:             1             24  org.jetbrains.jps.devkit.model.JpsIdeaSdkType
+ 920:             1             24  org.jetbrains.jps.devkit.threadingModelHelper.TMHInstrumentingBuilder
+ 921:             1             24  org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl
+ 922:             1             24  org.jetbrains.jps.incremental.artifacts.ArtifactBuildTargetType
+ 923:             1             24  org.jetbrains.jps.incremental.dependencies.ProjectDependenciesResolver$ProjectDependenciesResolvingTargetType
+ 924:             1             24  org.jetbrains.jps.incremental.groovy.GreclipseBuilder$1
+ 925:             1             24  org.jetbrains.jps.incremental.groovy.GreclipseJpsCompilerSettings
+ 926:             1             24  org.jetbrains.jps.incremental.groovy.GreclipseSettings
+ 927:             1             24  org.jetbrains.jps.incremental.groovy.GroovyResourceRootDescriptor
+ 928:             1             24  org.jetbrains.jps.incremental.java.JavaBuilder
+ 929:             1             24  org.jetbrains.jps.incremental.relativizer.GradlePathRelativizer
+ 930:             1             24  org.jetbrains.jps.incremental.relativizer.MavenPathRelativizer
+ 931:             1             24  org.jetbrains.jps.incremental.relativizer.PathRelativizerService
+ 932:             1             24  org.jetbrains.jps.intellilang.instrumentation.PatternValidatorBuilder
+ 933:             1             24  org.jetbrains.jps.intellilang.model.impl.JpsIntelliLangConfigurationImpl
+ 934:             1             24  org.jetbrains.jps.javaee.build.jspValidation.JspValidationTarget$Type
+ 935:             1             24  org.jetbrains.jps.maven.model.impl.JpsMavenExtensionServiceImpl
+ 936:             1             24  org.jetbrains.jps.model.ex.JpsFactoryElementChildRoleBase
+ 937:             1             24  org.jetbrains.jps.model.impl.JpsElementFactoryImpl$1
+ 938:             1             24  org.jetbrains.jps.model.impl.JpsEncodingProjectConfigurationImpl
+ 939:             1             24  org.jetbrains.jps.model.impl.JpsFileTypesConfigurationImpl
+ 940:             1             24  org.jetbrains.jps.model.impl.JpsModelImpl
+ 941:             1             24  org.jetbrains.jps.model.impl.JpsSimpleElementImpl
+ 942:             1             24  org.jetbrains.jps.model.java.JavaSourceRootProperties
+ 943:             1             24  org.jetbrains.jps.model.java.JpsJavaSdkType
+ 944:             1             24  org.jetbrains.jps.model.java.impl.JpsJavaProjectExtensionImpl
+ 945:             1             24  org.jetbrains.jps.model.java.impl.compiler.JpsValidationConfigurationImpl
+ 946:             1             24  org.jetbrains.jps.model.module.impl.JpsDependenciesListImpl
+ 947:             1             24  org.jetbrains.jps.model.module.impl.JpsModuleSourceDependencyImpl
+ 948:             1             24  org.jetbrains.jps.model.module.impl.JpsSdkDependencyImpl
+ 949:             1             24  org.jetbrains.jps.model.module.impl.JpsSdkReferenceRole
+ 950:             1             24  org.jetbrains.jps.model.serialization.JpsGlobalLoader$FileTypesSerializer
+ 951:             1             24  org.jetbrains.jps.model.serialization.JpsGlobalLoader$GlobalLibrariesSerializer
+ 952:             1             24  org.jetbrains.jps.model.serialization.JpsGlobalLoader$SdkTableSerializer
+ 953:             1             24  org.jetbrains.jps.model.serialization.impl.JpsModuleSerializationDataExtensionImpl
+ 954:             1             24  org.jetbrains.jps.model.serialization.impl.JpsPathVariablesConfigurationImpl
+ 955:             1             24  org.jetbrains.jps.model.serialization.impl.JpsProjectSerializationDataExtensionImpl
+ 956:             1             24  org.jetbrains.jps.model.serialization.jarRepository.JpsRemoteRepositoriesConfigurationSerializer
+ 957:             1             24  org.jetbrains.jps.model.serialization.java.JpsJavaModelSerializerExtension$JavaSourceRootPropertiesSerializer
+ 958:             1             24  org.jetbrains.jps.model.serialization.library.JpsSdkTableSerializer$1
+ 959:             1             24  org.jetbrains.jps.uiDesigner.compiler.FormsBindingManager
+ 960:             1             24  org.jetbrains.jps.uiDesigner.compiler.FormsInstrumenter
+ 961:             1             24  org.jetbrains.jps.uiDesigner.model.impl.JpsUiDesignerConfigurationImpl
+ 962:             1             24  org.jetbrains.kotlin.jps.build.KotlinBuilder
+ 963:             1             24  org.jetbrains.kotlin.jps.build.TeamcityStatisticsLogger
+ 964:             1             24  org.jetbrains.kotlin.jps.incremental.KotlinCompilerReferenceIndexBuilder
+ 965:             1             24  org.slf4j.helpers.SubstituteLoggerFactory
+ 966:             1             24  sun.management.RuntimeImpl (java.management@11.0.19)
+ 967:             1             24  sun.management.VMManagementImpl (java.management@11.0.19)
+ 968:             1             24  sun.nio.ch.PipeImpl (java.base@11.0.19)
+ 969:             1             24  sun.nio.ch.Util$BufferCache (java.base@11.0.19)
+ 970:             1             24  sun.nio.ch.WindowsSelectorImpl$FinishLock (java.base@11.0.19)
+ 971:             1             24  sun.nio.ch.WindowsSelectorImpl$MapEntry (java.base@11.0.19)
+ 972:             1             24  sun.nio.ch.WindowsSelectorImpl$StartLock (java.base@11.0.19)
+ 973:             1             24  sun.nio.cs.ISO_8859_1 (java.base@11.0.19)
+ 974:             1             24  sun.nio.cs.MS949 (java.base@11.0.19)
+ 975:             1             24  sun.nio.cs.ThreadLocalCoders$1 (java.base@11.0.19)
+ 976:             1             24  sun.nio.cs.ThreadLocalCoders$2 (java.base@11.0.19)
+ 977:             1             24  sun.nio.cs.US_ASCII (java.base@11.0.19)
+ 978:             1             24  sun.nio.cs.UTF_16 (java.base@11.0.19)
+ 979:             1             24  sun.nio.cs.UTF_16BE (java.base@11.0.19)
+ 980:             1             24  sun.nio.cs.UTF_16LE (java.base@11.0.19)
+ 981:             1             24  sun.nio.cs.UTF_8 (java.base@11.0.19)
+ 982:             1             24  sun.nio.fs.NativeBuffer$Deallocator (java.base@11.0.19)
+ 983:             1             24  sun.nio.fs.WindowsFileSystem (java.base@11.0.19)
+ 984:             1             24  sun.nio.fs.WindowsSecurityDescriptor (java.base@11.0.19)
+ 985:             1             24  sun.security.provider.DRBG (java.base@11.0.19)
+ 986:             1             24  sun.util.cldr.CLDRCalendarDataProviderImpl (java.base@11.0.19)
+ 987:             1             24  sun.util.locale.BaseLocale$Cache (java.base@11.0.19)
+ 988:             1             24  sun.util.locale.provider.CalendarProviderImpl (java.base@11.0.19)
+ 989:             1             24  sun.util.locale.provider.DecimalFormatSymbolsProviderImpl (java.base@11.0.19)
+ 990:             1             24  sun.util.locale.provider.LocaleServiceProviderPool (java.base@11.0.19)
+ 991:             1             16  [Lcom.intellij.openapi.util.Key;
+ 992:             1             16  [Lcom.intellij.openapi.util.TextRange;
+ 993:             1             16  [Lio.netty.util.AsciiString;
+ 994:             1             16  [Lio.netty.util.DefaultAttributeMap$DefaultAttribute;
+ 995:             1             16  [Ljava.lang.Throwable; (java.base@11.0.19)
+ 996:             1             16  [Ljava.nio.file.attribute.FileAttribute; (java.base@11.0.19)
+ 997:             1             16  [Ljava.security.Provider; (java.base@11.0.19)
+ 998:             1             16  [Ljava.security.cert.X509Certificate; (java.base@11.0.19)
+ 999:             1             16  [Ljava.util.Collection; (java.base@11.0.19)
+1000:             1             16  [Ljava.util.logging.Handler; (java.logging@11.0.19)
+1001:             1             16  [Ljavax.security.cert.X509Certificate; (java.base@11.0.19)
+1002:             1             16  [Lnet.jpountz.lz4.LZ4Constants;
+1003:             1             16  [Lnet.jpountz.lz4.LZ4SafeUtils;
+1004:             1             16  [Lnet.jpountz.lz4.LZ4UnsafeUtils;
+1005:             1             16  [Lnet.jpountz.lz4.LZ4Utils;
+1006:             1             16  [Lnet.jpountz.util.SafeUtils;
+1007:             1             16  [Lnet.jpountz.util.UnsafeUtils;
+1008:             1             16  [Lnet.jpountz.util.Utils;
+1009:             1             16  com.fasterxml.aalto.in.ByteBasedPNameFactory
+1010:             1             16  com.google.protobuf.DescriptorMessageInfoFactory
+1011:             1             16  com.google.protobuf.ExtensionSchemaFull
+1012:             1             16  com.google.protobuf.ExtensionSchemaLite
+1013:             1             16  com.google.protobuf.GeneratedMessageInfoFactory
+1014:             1             16  com.google.protobuf.ListFieldSchema$ListFieldSchemaFull
+1015:             1             16  com.google.protobuf.ListFieldSchema$ListFieldSchemaLite
+1016:             1             16  com.google.protobuf.ManifestSchemaFactory
+1017:             1             16  com.google.protobuf.ManifestSchemaFactory$1
+1018:             1             16  com.google.protobuf.ManifestSchemaFactory$CompositeMessageInfoFactory
+1019:             1             16  com.google.protobuf.MapFieldSchemaFull
+1020:             1             16  com.google.protobuf.MapFieldSchemaLite
+1021:             1             16  com.google.protobuf.NewInstanceSchemaFull
+1022:             1             16  com.google.protobuf.NewInstanceSchemaLite
+1023:             1             16  com.google.protobuf.UnknownFieldSetLiteSchema
+1024:             1             16  com.google.protobuf.UnsafeUtil$JvmMemoryAccessor
+1025:             1             16  com.intellij.AbstractBundle$MyResourceControl
+1026:             1             16  com.intellij.openapi.diagnostic.Logger$$Lambda$1/0x0000000100065040
+1027:             1             16  com.intellij.openapi.fileTypes.WildcardFileNameMatcher$SuffixMatcher
+1028:             1             16  com.intellij.openapi.fileTypes.impl.FileTypeAssocTable$$Lambda$92/0x0000000100217440
+1029:             1             16  com.intellij.openapi.util.EmptyRunnable
+1030:             1             16  com.intellij.openapi.util.JDOMUtil$$Lambda$65/0x00000001001af440
+1031:             1             16  com.intellij.openapi.util.SafeJdomFactory$BaseSafeJdomFactory
+1032:             1             16  com.intellij.openapi.util.io.FileFilters$$Lambda$100/0x0000000100228c40
+1033:             1             16  com.intellij.openapi.util.io.FileFilters$$Lambda$101/0x000000010022f840
+1034:             1             16  com.intellij.openapi.util.io.FileUtil$1
+1035:             1             16  com.intellij.openapi.util.io.FileUtil$2
+1036:             1             16  com.intellij.openapi.util.io.NullAppendable
+1037:             1             16  com.intellij.openapi.util.text.StringUtil$$Lambda$62/0x0000000100198c40
+1038:             1             16  com.intellij.openapi.util.text.StringUtil$$Lambda$63/0x000000010019f840
+1039:             1             16  com.intellij.util.ArrayUtil$$Lambda$72/0x00000001001e7040
+1040:             1             16  com.intellij.util.ArrayUtil$$Lambda$73/0x00000001001e7440
+1041:             1             16  com.intellij.util.DefaultBundleService
+1042:             1             16  com.intellij.util.DefaultBundleService$$Lambda$130/0x0000000100289440
+1043:             1             16  com.intellij.util.SmartList$$Lambda$71/0x00000001001e7840
+1044:             1             16  com.intellij.util.concurrency.BoundedTaskExecutor$$Lambda$82/0x00000001001e1c40
+1045:             1             16  com.intellij.util.containers.ContainerUtilRt$EmptyList
+1046:             1             16  com.intellij.util.containers.EmptyIterator
+1047:             1             16  com.intellij.util.containers.FastUtilCaseInsensitiveStringHashingStrategy
+1048:             1             16  com.intellij.util.containers.FastUtilHashingStrategies$1
+1049:             1             16  com.intellij.util.containers.FileCollectionFactory$1
+1050:             1             16  com.intellij.util.containers.FileCollectionFactory$2
+1051:             1             16  com.intellij.util.containers.hash.EqualityPolicy$1
+1052:             1             16  com.intellij.util.containers.hash.EqualityPolicy$2
+1053:             1             16  com.intellij.util.io.DirectBufferWrapper$$Lambda$115/0x0000000100252440
+1054:             1             16  com.intellij.util.io.EnumeratorIntegerDescriptor
+1055:             1             16  com.intellij.util.io.EnumeratorStringDescriptor$EnumeratorStringDescriptorImpl
+1056:             1             16  com.intellij.util.io.IOCancellationCallbackHolder
+1057:             1             16  com.intellij.util.io.IOCancellationCallbackHolder$loadSingleCallback$2
+1058:             1             16  com.intellij.util.io.IOCancellationCallbackHolder$usedIoCallback$2
+1059:             1             16  com.intellij.util.io.IOUtil$1
+1060:             1             16  com.intellij.util.io.IOUtil$2
+1061:             1             16  com.intellij.util.io.PagedFileStorage$$Lambda$108/0x000000010022ac40
+1062:             1             16  com.intellij.util.io.PersistentHashMapValueStorage$CreationTimeOptions$1
+1063:             1             16  com.intellij.util.io.PersistentMapImpl$3
+1064:             1             16  com.intellij.util.io.PersistentStringEnumerator$1
+1065:             1             16  com.intellij.util.io.keyStorage.AppendableStorageBackedByResizableMappedFile$$Lambda$116/0x0000000100257840
+1066:             1             16  com.intellij.util.io.keyStorage.AppendableStorageBackedByResizableMappedFile$4
+1067:             1             16  com.intellij.util.io.stats.StorageStatsRegistrar
+1068:             1             16  com.intellij.util.keyFMap.EmptyFMap
+1069:             1             16  com.sun.management.internal.PlatformMBeanProviderImpl (jdk.management@11.0.19)
+1070:             1             16  com.sun.management.internal.PlatformMBeanProviderImpl$$Lambda$29/0x00000001000ce040 (jdk.management@11.0.19)
+1071:             1             16  com.sun.proxy.$Proxy4
+1072:             1             16  com.sun.proxy.$Proxy5
+1073:             1             16  com.sun.proxy.$Proxy6
+1074:             1             16  io.netty.buffer.AbstractReferenceCountedByteBuf$1
+1075:             1             16  io.netty.buffer.ByteBufUtil$1
+1076:             1             16  io.netty.buffer.ByteBufUtil$2
+1077:             1             16  io.netty.buffer.PoolThreadCache$MemoryRegionCache$1
+1078:             1             16  io.netty.buffer.PooledByteBufAllocator$1
+1079:             1             16  io.netty.buffer.PooledByteBufAllocatorMetric
+1080:             1             16  io.netty.buffer.PooledDirectByteBuf$1
+1081:             1             16  io.netty.channel.AbstractChannelHandlerContext$WriteTask$1
+1082:             1             16  io.netty.channel.ChannelFutureListener$1
+1083:             1             16  io.netty.channel.ChannelFutureListener$2
+1084:             1             16  io.netty.channel.ChannelFutureListener$3
+1085:             1             16  io.netty.channel.ChannelHandlerMask$1
+1086:             1             16  io.netty.channel.ChannelOutboundBuffer$1
+1087:             1             16  io.netty.channel.ChannelOutboundBuffer$Entry$1
+1088:             1             16  io.netty.channel.DefaultChannelPipeline$1
+1089:             1             16  io.netty.channel.DefaultMessageSizeEstimator
+1090:             1             16  io.netty.channel.DefaultMessageSizeEstimator$HandleImpl
+1091:             1             16  io.netty.channel.DefaultSelectStrategy
+1092:             1             16  io.netty.channel.DefaultSelectStrategyFactory
+1093:             1             16  io.netty.channel.VoidChannelPromise$1
+1094:             1             16  io.netty.channel.nio.AbstractNioByteChannel$1
+1095:             1             16  io.netty.channel.nio.AbstractNioChannel$1
+1096:             1             16  io.netty.channel.nio.NioEventLoop$1
+1097:             1             16  io.netty.handler.codec.ByteToMessageDecoder$1
+1098:             1             16  io.netty.handler.codec.ByteToMessageDecoder$2
+1099:             1             16  io.netty.handler.codec.CodecOutputList$1
+1100:             1             16  io.netty.handler.codec.CodecOutputList$2
+1101:             1             16  io.netty.util.NettyRuntime$AvailableProcessorsHolder
+1102:             1             16  io.netty.util.Recycler$1
+1103:             1             16  io.netty.util.concurrent.AbstractScheduledEventExecutor$1
+1104:             1             16  io.netty.util.concurrent.AbstractScheduledEventExecutor$2
+1105:             1             16  io.netty.util.concurrent.DefaultEventExecutorChooserFactory
+1106:             1             16  io.netty.util.concurrent.DefaultPromise$CauseHolder
+1107:             1             16  io.netty.util.concurrent.FastThreadLocal
+1108:             1             16  io.netty.util.concurrent.GlobalEventExecutor$1
+1109:             1             16  io.netty.util.concurrent.GlobalEventExecutor$TaskRunner
+1110:             1             16  io.netty.util.concurrent.MultithreadEventExecutorGroup$1
+1111:             1             16  io.netty.util.concurrent.RejectedExecutionHandlers$1
+1112:             1             16  io.netty.util.concurrent.SingleThreadEventExecutor$1
+1113:             1             16  io.netty.util.concurrent.SingleThreadEventExecutor$4
+1114:             1             16  io.netty.util.concurrent.ThreadPerTaskExecutor
+1115:             1             16  io.netty.util.internal.PlatformDependent$1
+1116:             1             16  io.netty.util.internal.PlatformDependent$2
+1117:             1             16  io.netty.util.internal.TypeParameterMatcher$1
+1118:             1             16  it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$$Lambda$78/0x00000001001e3440
+1119:             1             16  it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$$Lambda$79/0x00000001001e2c40
+1120:             1             16  it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$$Lambda$80/0x00000001001e2040
+1121:             1             16  java.io.FileDescriptor$1 (java.base@11.0.19)
+1122:             1             16  java.io.FilePermission$1 (java.base@11.0.19)
+1123:             1             16  java.io.RandomAccessFile$2 (java.base@11.0.19)
+1124:             1             16  java.lang.ApplicationShutdownHooks$1 (java.base@11.0.19)
+1125:             1             16  java.lang.CharacterData00 (java.base@11.0.19)
+1126:             1             16  java.lang.CharacterDataLatin1 (java.base@11.0.19)
+1127:             1             16  java.lang.Float (java.base@11.0.19)
+1128:             1             16  java.lang.InheritableThreadLocal (java.base@11.0.19)
+1129:             1             16  java.lang.ProcessEnvironment$EntryComparator (java.base@11.0.19)
+1130:             1             16  java.lang.ProcessEnvironment$NameComparator (java.base@11.0.19)
+1131:             1             16  java.lang.Runtime (java.base@11.0.19)
+1132:             1             16  java.lang.String$CaseInsensitiveComparator (java.base@11.0.19)
+1133:             1             16  java.lang.StringCoding$1 (java.base@11.0.19)
+1134:             1             16  java.lang.System$2 (java.base@11.0.19)
+1135:             1             16  java.lang.Terminator$1 (java.base@11.0.19)
+1136:             1             16  java.lang.invoke.ClassSpecializer$1 (java.base@11.0.19)
+1137:             1             16  java.lang.invoke.MemberName$Factory (java.base@11.0.19)
+1138:             1             16  java.lang.invoke.MethodHandleImpl$1 (java.base@11.0.19)
+1139:             1             16  java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy$1 (java.base@11.0.19)
+1140:             1             16  java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy$2 (java.base@11.0.19)
+1141:             1             16  java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy$3 (java.base@11.0.19)
+1142:             1             16  java.lang.invoke.VarHandle$1 (java.base@11.0.19)
+1143:             1             16  java.lang.management.DefaultPlatformMBeanProvider (java.management@11.0.19)
+1144:             1             16  java.lang.management.ManagementFactory$$Lambda$26/0x00000001000cf440 (java.management@11.0.19)
+1145:             1             16  java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$27/0x00000001000ce840 (java.management@11.0.19)
+1146:             1             16  java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$34/0x00000001000cd440 (java.management@11.0.19)
+1147:             1             16  java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$35/0x00000001000cc840 (java.management@11.0.19)
+1148:             1             16  java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$37/0x00000001000cc440 (java.management@11.0.19)
+1149:             1             16  java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$41/0x00000001000ca840 (java.management@11.0.19)
+1150:             1             16  java.lang.management.ManagementFactory$PlatformMBeanFinder$$Lambda$42/0x00000001000cac40 (java.management@11.0.19)
+1151:             1             16  java.lang.module.ModuleDescriptor$1 (java.base@11.0.19)
+1152:             1             16  java.lang.ref.Cleaner (java.base@11.0.19)
+1153:             1             16  java.lang.ref.Cleaner$1 (java.base@11.0.19)
+1154:             1             16  java.lang.ref.Reference$1 (java.base@11.0.19)
+1155:             1             16  java.lang.reflect.Proxy$$Lambda$59/0x0000000100125840 (java.base@11.0.19)
+1156:             1             16  java.lang.reflect.ReflectAccess (java.base@11.0.19)
+1157:             1             16  java.net.InetAddress$2 (java.base@11.0.19)
+1158:             1             16  java.net.InetAddress$PlatformNameService (java.base@11.0.19)
+1159:             1             16  java.net.ServerSocket$2 (java.base@11.0.19)
+1160:             1             16  java.net.URI$1 (java.base@11.0.19)
+1161:             1             16  java.net.URL$3 (java.base@11.0.19)
+1162:             1             16  java.net.URL$DefaultFactory (java.base@11.0.19)
+1163:             1             16  java.net.URLClassLoader$7 (java.base@11.0.19)
+1164:             1             16  java.nio.Bits$1 (java.base@11.0.19)
+1165:             1             16  java.nio.Buffer$1 (java.base@11.0.19)
+1166:             1             16  java.nio.channels.spi.AbstractSelector$1 (java.base@11.0.19)
+1167:             1             16  java.nio.file.Files$AcceptAllFilter (java.base@11.0.19)
+1168:             1             16  java.security.AllPermission (java.base@11.0.19)
+1169:             1             16  java.security.ProtectionDomain$JavaSecurityAccessImpl (java.base@11.0.19)
+1170:             1             16  java.util.Collections$EmptyEnumeration (java.base@11.0.19)
+1171:             1             16  java.util.Collections$EmptyIterator (java.base@11.0.19)
+1172:             1             16  java.util.Collections$EmptyList (java.base@11.0.19)
+1173:             1             16  java.util.Collections$EmptyListIterator (java.base@11.0.19)
+1174:             1             16  java.util.Collections$EmptySet (java.base@11.0.19)
+1175:             1             16  java.util.EnumMap$1 (java.base@11.0.19)
+1176:             1             16  java.util.IdentityHashMap$Values (java.base@11.0.19)
+1177:             1             16  java.util.LinkedHashMap$LinkedKeySet (java.base@11.0.19)
+1178:             1             16  java.util.LinkedHashMap$LinkedValues (java.base@11.0.19)
+1179:             1             16  java.util.ResourceBundle$1 (java.base@11.0.19)
+1180:             1             16  java.util.ResourceBundle$Control (java.base@11.0.19)
+1181:             1             16  java.util.Spliterators$EmptySpliterator$OfDouble (java.base@11.0.19)
+1182:             1             16  java.util.Spliterators$EmptySpliterator$OfInt (java.base@11.0.19)
+1183:             1             16  java.util.Spliterators$EmptySpliterator$OfLong (java.base@11.0.19)
+1184:             1             16  java.util.Spliterators$EmptySpliterator$OfRef (java.base@11.0.19)
+1185:             1             16  java.util.concurrent.CompletableFuture$AltResult (java.base@11.0.19)
+1186:             1             16  java.util.concurrent.ConcurrentSkipListSet (java.base@11.0.19)
+1187:             1             16  java.util.concurrent.CountDownLatch (java.base@11.0.19)
+1188:             1             16  java.util.concurrent.ForkJoinPool$DefaultForkJoinWorkerThreadFactory (java.base@11.0.19)
+1189:             1             16  java.util.concurrent.SynchronousQueue$TransferStack (java.base@11.0.19)
+1190:             1             16  java.util.concurrent.ThreadPoolExecutor$AbortPolicy (java.base@11.0.19)
+1191:             1             16  java.util.function.Function$$Lambda$36/0x00000001000ccc40 (java.base@11.0.19)
+1192:             1             16  java.util.jar.JavaUtilJarAccessImpl (java.base@11.0.19)
+1193:             1             16  java.util.logging.Level$$Lambda$5/0x000000010009f840 (java.logging@11.0.19)
+1194:             1             16  java.util.logging.Level$KnownLevel$$Lambda$6/0x000000010009fc40 (java.logging@11.0.19)
+1195:             1             16  java.util.logging.LogManager$LoggingProviderAccess (java.logging@11.0.19)
+1196:             1             16  java.util.logging.LogManager$VisitedLoggers (java.logging@11.0.19)
+1197:             1             16  java.util.logging.SimpleFormatter$$Lambda$12/0x000000010009e440 (java.logging@11.0.19)
+1198:             1             16  java.util.regex.CharPredicates$$Lambda$15/0x000000010009a840 (java.base@11.0.19)
+1199:             1             16  java.util.regex.CharPredicates$$Lambda$25/0x00000001000cf040 (java.base@11.0.19)
+1200:             1             16  java.util.regex.Pattern$$Lambda$64/0x00000001001afc40 (java.base@11.0.19)
+1201:             1             16  java.util.regex.Pattern$1 (java.base@11.0.19)
+1202:             1             16  java.util.regex.Pattern$LastNode (java.base@11.0.19)
+1203:             1             16  java.util.regex.Pattern$Node (java.base@11.0.19)
+1204:             1             16  java.util.stream.Collectors$$Lambda$30/0x00000001000ce440 (java.base@11.0.19)
+1205:             1             16  java.util.stream.Collectors$$Lambda$31/0x00000001000cd840 (java.base@11.0.19)
+1206:             1             16  java.util.stream.Collectors$$Lambda$32/0x00000001000cdc40 (java.base@11.0.19)
+1207:             1             16  java.util.stream.Collectors$$Lambda$33/0x00000001000cd040 (java.base@11.0.19)
+1208:             1             16  java.util.stream.Collectors$$Lambda$38/0x00000001000cb840 (java.base@11.0.19)
+1209:             1             16  java.util.stream.Collectors$$Lambda$47/0x00000001000c9040 (java.base@11.0.19)
+1210:             1             16  java.util.stream.Collectors$$Lambda$48/0x00000001000c9440 (java.base@11.0.19)
+1211:             1             16  java.util.stream.Collectors$$Lambda$49/0x00000001000c8840 (java.base@11.0.19)
+1212:             1             16  java.util.stream.Collectors$$Lambda$55/0x0000000100126840 (java.base@11.0.19)
+1213:             1             16  java.util.stream.Collectors$$Lambda$56/0x0000000100126c40 (java.base@11.0.19)
+1214:             1             16  java.util.stream.Collectors$$Lambda$57/0x0000000100126040 (java.base@11.0.19)
+1215:             1             16  java.util.stream.Collectors$$Lambda$58/0x0000000100126440 (java.base@11.0.19)
+1216:             1             16  java.util.stream.FindOps$FindSink$OfRef$$Lambda$10/0x000000010009ec40 (java.base@11.0.19)
+1217:             1             16  java.util.stream.FindOps$FindSink$OfRef$$Lambda$7/0x000000010009f040 (java.base@11.0.19)
+1218:             1             16  java.util.stream.FindOps$FindSink$OfRef$$Lambda$8/0x000000010009f440 (java.base@11.0.19)
+1219:             1             16  java.util.stream.FindOps$FindSink$OfRef$$Lambda$9/0x000000010009e840 (java.base@11.0.19)
+1220:             1             16  java.util.zip.ZipFile$1 (java.base@11.0.19)
+1221:             1             16  jdk.internal.jimage.ImageReaderFactory$1 (java.base@11.0.19)
+1222:             1             16  jdk.internal.jimage.ImageStringsReader (java.base@11.0.19)
+1223:             1             16  jdk.internal.jimage.decompressor.Decompressor (java.base@11.0.19)
+1224:             1             16  jdk.internal.math.FloatingDecimal$1 (java.base@11.0.19)
+1225:             1             16  jdk.internal.misc.TerminatingThreadLocal$1 (java.base@11.0.19)
+1226:             1             16  jdk.internal.misc.Unsafe (java.base@11.0.19)
+1227:             1             16  jdk.internal.module.ModulePatcher (java.base@11.0.19)
+1228:             1             16  jdk.internal.module.ModuleTarget (java.base@11.0.19)
+1229:             1             16  jdk.internal.module.SystemModules$default (java.base@11.0.19)
+1230:             1             16  jdk.internal.perf.Perf (java.base@11.0.19)
+1231:             1             16  jdk.internal.reflect.GeneratedConstructorAccessor1
+1232:             1             16  jdk.internal.reflect.GeneratedConstructorAccessor2
+1233:             1             16  jdk.internal.reflect.ReflectionFactory (java.base@11.0.19)
+1234:             1             16  jdk.internal.util.Preconditions$1 (java.base@11.0.19)
+1235:             1             16  jdk.net.ExtendedSocketOptions$1 (jdk.net@11.0.19)
+1236:             1             16  jdk.net.ExtendedSocketOptions$PlatformSocketOptions (jdk.net@11.0.19)
+1237:             1             16  kotlin.UNINITIALIZED_VALUE
+1238:             1             16  kotlin.collections.EmptyIterator
+1239:             1             16  kotlin.collections.EmptyList
+1240:             1             16  kotlin.jvm.internal.CallableReference$NoReceiver
+1241:             1             16  net.jpountz.lz4.LZ4JavaUnsafeCompressor
+1242:             1             16  net.jpountz.lz4.LZ4JavaUnsafeFastDecompressor
+1243:             1             16  net.jpountz.lz4.LZ4JavaUnsafeSafeDecompressor
+1244:             1             16  org.jdom.AttributeList$$Lambda$66/0x00000001001ae840
+1245:             1             16  org.jdom.AttributeList$$Lambda$68/0x00000001001ae040
+1246:             1             16  org.jdom.filter2.PassThroughFilter
+1247:             1             16  org.jetbrains.jps.ant.model.impl.JpsAntModelSerializerExtension
+1248:             1             16  org.jetbrains.jps.api.CmdlineRemoteProto$Message$BuilderMessage$Type$1
+1249:             1             16  org.jetbrains.jps.api.CmdlineRemoteProto$Message$BuilderMessage$Type$TypeVerifier
+1250:             1             16  org.jetbrains.jps.api.CmdlineRemoteProto$Message$Type$1
+1251:             1             16  org.jetbrains.jps.api.CmdlineRemoteProto$Message$Type$TypeVerifier
+1252:             1             16  org.jetbrains.jps.builders.impl.BuildDataPathsImpl
+1253:             1             16  org.jetbrains.jps.builders.impl.logging.ProjectBuilderLoggerImpl
+1254:             1             16  org.jetbrains.jps.builders.java.JavaBuilderExtensionImpl
+1255:             1             16  org.jetbrains.jps.builders.java.dependencyView.ClassRepr$2
+1256:             1             16  org.jetbrains.jps.builders.java.dependencyView.Mappings$$Lambda$123/0x000000010026a840
+1257:             1             16  org.jetbrains.jps.builders.java.dependencyView.Mappings$$Lambda$124/0x000000010026ac40
+1258:             1             16  org.jetbrains.jps.builders.java.dependencyView.ModuleRepr$2
+1259:             1             16  org.jetbrains.jps.builders.java.dependencyView.NaturalIntIntPersistentMultiMaplet$1
+1260:             1             16  org.jetbrains.jps.builders.logging.BuildLoggingManager
+1261:             1             16  org.jetbrains.jps.cmdline.BuildMain$$Lambda$24/0x00000001000cfc40
+1262:             1             16  org.jetbrains.jps.cmdline.LogSetup$$Lambda$13/0x000000010009d840
+1263:             1             16  org.jetbrains.jps.devkit.builder.JpsPluginSyntheticArtifactProvider
+1264:             1             16  org.jetbrains.jps.devkit.builder.PluginJavaBuilderExtension
+1265:             1             16  org.jetbrains.jps.devkit.model.JpsPluginModuleType
+1266:             1             16  org.jetbrains.jps.devkit.model.impl.JpsDevKitModelSerializerExtension
+1267:             1             16  org.jetbrains.jps.devkit.threadingModelHelper.TMHBuilderService
+1268:             1             16  org.jetbrains.jps.eclipse.model.JpsEclipseClasspathSerializer
+1269:             1             16  org.jetbrains.jps.eclipse.model.JpsEclipseModelSerializerExtension
+1270:             1             16  org.jetbrains.jps.gradle.compiler.GradleBuilderService
+1271:             1             16  org.jetbrains.jps.gradle.compiler.GradleResourcesBuilder
+1272:             1             16  org.jetbrains.jps.gradle.model.impl.JpsGradleDependenciesEnumerationHandler$GradleFactory
+1273:             1             16  org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl$$Lambda$91/0x0000000100217040
+1274:             1             16  org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl$1
+1275:             1             16  org.jetbrains.jps.gradle.model.impl.JpsGradleModelSerializationExtension
+1276:             1             16  org.jetbrains.jps.incremental.BuilderRegistry$$Lambda$133/0x000000010028f840
+1277:             1             16  org.jetbrains.jps.incremental.CleanupTempDirectoryExtension
+1278:             1             16  org.jetbrains.jps.incremental.JavaBuilderService
+1279:             1             16  org.jetbrains.jps.incremental.TargetTypeRegistry
+1280:             1             16  org.jetbrains.jps.incremental.Utils$$Lambda$61/0x0000000100198840
+1281:             1             16  org.jetbrains.jps.incremental.artifacts.ArtifactBuilderService
+1282:             1             16  org.jetbrains.jps.incremental.artifacts.IncArtifactBuilder
+1283:             1             16  org.jetbrains.jps.incremental.artifacts.impl.JpsBuilderArtifactServiceImpl
+1284:             1             16  org.jetbrains.jps.incremental.dependencies.DependencyResolvingBuilder
+1285:             1             16  org.jetbrains.jps.incremental.dependencies.ProjectDependenciesResolver
+1286:             1             16  org.jetbrains.jps.incremental.dependencies.ProjectDependenciesResolver$ProjectDependenciesResolvingTarget
+1287:             1             16  org.jetbrains.jps.incremental.groovy.GroovyBuilder$RecompileStubSources
+1288:             1             16  org.jetbrains.jps.incremental.groovy.GroovyBuilderService
+1289:             1             16  org.jetbrains.jps.incremental.groovy.GroovyJavaBuilderExtension
+1290:             1             16  org.jetbrains.jps.incremental.groovy.GroovyModelSerializerExtension
+1291:             1             16  org.jetbrains.jps.incremental.groovy.GroovyResourceChecker
+1292:             1             16  org.jetbrains.jps.incremental.instrumentation.RmiStubsGenerator
+1293:             1             16  org.jetbrains.jps.incremental.java.AnnotationsExcludedJavaSourceRootProvider
+1294:             1             16  org.jetbrains.jps.incremental.relativizer.JavaSdkPathRelativizer
+1295:             1             16  org.jetbrains.jps.incremental.relativizer.JavaSdkPathRelativizer$$Lambda$105/0x000000010022e840
+1296:             1             16  org.jetbrains.jps.incremental.relativizer.JavaSdkPathRelativizer$$Lambda$106/0x000000010022ec40
+1297:             1             16  org.jetbrains.jps.incremental.relativizer.JavaSdkPathRelativizer$$Lambda$107/0x000000010022e040
+1298:             1             16  org.jetbrains.jps.incremental.relativizer.PathRelativizerService$$Lambda$103/0x000000010022f040
+1299:             1             16  org.jetbrains.jps.incremental.relativizer.PathRelativizerService$$Lambda$104/0x000000010022f440
+1300:             1             16  org.jetbrains.jps.incremental.resources.ResourcesBuilder
+1301:             1             16  org.jetbrains.jps.incremental.storage.BuildDataManager$1
+1302:             1             16  org.jetbrains.jps.incremental.storage.FileKeyDescriptor
+1303:             1             16  org.jetbrains.jps.incremental.storage.FileTimestampStorage$StateExternalizer
+1304:             1             16  org.jetbrains.jps.incremental.storage.OneToManyPathsMapping$PathCollectionExternalizer
+1305:             1             16  org.jetbrains.jps.incremental.storage.OutputToTargetRegistry$1
+1306:             1             16  org.jetbrains.jps.incremental.storage.PathStringDescriptor
+1307:             1             16  org.jetbrains.jps.incremental.storage.ProjectStamps
+1308:             1             16  org.jetbrains.jps.indices.impl.IgnoredFileIndexImpl
+1309:             1             16  org.jetbrains.jps.intellilang.instrumentation.PatternValidatorBuilderService
+1310:             1             16  org.jetbrains.jps.intellilang.model.impl.JpsIntelliLangExtensionServiceImpl
+1311:             1             16  org.jetbrains.jps.intellilang.model.impl.JpsIntelliLangModelSerializerExtension
+1312:             1             16  org.jetbrains.jps.javaee.build.jspValidation.JasperValidator
+1313:             1             16  org.jetbrains.jps.javaee.build.jspValidation.JspValidationBuilderService
+1314:             1             16  org.jetbrains.jps.javaee.model.impl.JpsJavaeeModelSerializerExtension
+1315:             1             16  org.jetbrains.jps.jpa.model.impl.JpsJpaModelSerializerExtension
+1316:             1             16  org.jetbrains.jps.maven.compiler.MavenBuilderService
+1317:             1             16  org.jetbrains.jps.maven.compiler.MavenResourcesBuilder
+1318:             1             16  org.jetbrains.jps.maven.model.impl.JpsMavenDependenciesEnumerationHandler$MavenFactory
+1319:             1             16  org.jetbrains.jps.maven.model.impl.JpsMavenExtensionServiceImpl$$Lambda$90/0x0000000100217c40
+1320:             1             16  org.jetbrains.jps.maven.model.impl.JpsMavenExtensionServiceImpl$1
+1321:             1             16  org.jetbrains.jps.maven.model.impl.JpsMavenModelSerializationExtension
+1322:             1             16  org.jetbrains.jps.maven.model.impl.JpsMavenModelSerializationExtension$$Lambda$85/0x0000000100210040
+1323:             1             16  org.jetbrains.jps.model.artifact.impl.JpsArtifactRole
+1324:             1             16  org.jetbrains.jps.model.artifact.impl.JpsArtifactServiceImpl
+1325:             1             16  org.jetbrains.jps.model.fileTypes.impl.FileNameMatcherFactoryImpl
+1326:             1             16  org.jetbrains.jps.model.impl.JpsElementFactoryImpl
+1327:             1             16  org.jetbrains.jps.model.impl.JpsEncodingConfigurationServiceImpl
+1328:             1             16  org.jetbrains.jps.model.impl.JpsExElementFactoryImpl
+1329:             1             16  org.jetbrains.jps.model.impl.JpsGlobalElementReference
+1330:             1             16  org.jetbrains.jps.model.java.JpsAnnotationRootType
+1331:             1             16  org.jetbrains.jps.model.java.JpsJavaModuleType
+1332:             1             16  org.jetbrains.jps.model.java.impl.JavaModuleExtensionRole
+1333:             1             16  org.jetbrains.jps.model.java.impl.JavaProjectExtensionRole
+1334:             1             16  org.jetbrains.jps.model.java.impl.JpsJavaDependencyExtensionRole
+1335:             1             16  org.jetbrains.jps.model.java.impl.JpsJavaExtensionServiceImpl
+1336:             1             16  org.jetbrains.jps.model.java.impl.compiler.JpsJavaCompilerConfigurationImpl$$Lambda$77/0x00000001001e3040
+1337:             1             16  org.jetbrains.jps.model.library.JpsOrderRootType$1
+1338:             1             16  org.jetbrains.jps.model.library.JpsOrderRootType$2
+1339:             1             16  org.jetbrains.jps.model.library.JpsOrderRootType$3
+1340:             1             16  org.jetbrains.jps.model.library.impl.JpsLibraryRole
+1341:             1             16  org.jetbrains.jps.model.module.impl.JpsModuleRole
+1342:             1             16  org.jetbrains.jps.model.module.impl.JpsModuleSourceRootRole
+1343:             1             16  org.jetbrains.jps.model.module.impl.JpsSdkReferencesTableImpl$JpsSdkReferencesTableRole
+1344:             1             16  org.jetbrains.jps.model.serialization.JpsEncodingModelSerializerExtension
+1345:             1             16  org.jetbrains.jps.model.serialization.JpsPathMapper$1
+1346:             1             16  org.jetbrains.jps.model.serialization.JpsProjectLoader$$Lambda$87/0x0000000100210840
+1347:             1             16  org.jetbrains.jps.model.serialization.impl.JpsSerializationManagerImpl
+1348:             1             16  org.jetbrains.jps.model.serialization.jarRepository.JpsRemoteRepositoriesModelSerializerExtension
+1349:             1             16  org.jetbrains.jps.model.serialization.java.JpsJavaModelSerializerExtension
+1350:             1             16  org.jetbrains.jps.packaging.jlink.JpsJLinkModelSerializerExtension
+1351:             1             16  org.jetbrains.jps.service.impl.JpsServiceManagerImpl$SingleClassLoaderPluginManager
+1352:             1             16  org.jetbrains.jps.service.impl.SharedThreadPoolImpl
+1353:             1             16  org.jetbrains.jps.uiDesigner.compiler.FormsBuilderService
+1354:             1             16  org.jetbrains.jps.uiDesigner.model.impl.JpsUiDesignerConfigurationImpl$UiDesignerConfigurationState
+1355:             1             16  org.jetbrains.jps.uiDesigner.model.impl.JpsUiDesignerExtensionServiceImpl
+1356:             1             16  org.jetbrains.jps.uiDesigner.model.impl.JpsUiDesignerSerializerExtension
+1357:             1             16  org.jetbrains.kotlin.config.ResourceKotlinRootType
+1358:             1             16  org.jetbrains.kotlin.config.SourceKotlinRootType
+1359:             1             16  org.jetbrains.kotlin.config.TestResourceKotlinRootType
+1360:             1             16  org.jetbrains.kotlin.config.TestSourceKotlinRootType
+1361:             1             16  org.jetbrains.kotlin.jps.KotlinJpsPathMacrosContributor
+1362:             1             16  org.jetbrains.kotlin.jps.build.KotlinBuilder$Companion
+1363:             1             16  org.jetbrains.kotlin.jps.build.KotlinBuilderService
+1364:             1             16  org.jetbrains.kotlin.jps.build.KotlinResourcesRootProvider
+1365:             1             16  org.jetbrains.kotlin.jps.build.KotlinSourceRootProvider
+1366:             1             16  org.jetbrains.kotlin.jps.incremental.KotlinCompilerReferenceIndexBuilder$Companion
+1367:             1             16  org.jetbrains.kotlin.jps.model.JpsKotlinFacetModuleExtension$Companion
+1368:             1             16  org.jetbrains.kotlin.jps.model.KotlinModelSerializerService
+1369:             1             16  org.jetbrains.plugins.javaFX.JpsJavaFxModelSerializerExtension
+1370:             1             16  org.jetbrains.plugins.javaFX.jpackage.JPackageJpsModelSerializerExtension
+1371:             1             16  org.jetbrains.plugins.javaFX.preloader.JpsJavaFxPreloaderModelSerializerExtension
+1372:             1             16  org.slf4j.helpers.NOPLoggerFactory
+1373:             1             16  org.slf4j.impl.JDK14LoggerFactory
+1374:             1             16  org.slf4j.impl.StaticLoggerBinder
+1375:             1             16  sun.misc.Unsafe (jdk.unsupported@11.0.19)
+1376:             1             16  sun.net.ext.ExtendedSocketOptions$$Lambda$54/0x0000000100127440 (java.base@11.0.19)
+1377:             1             16  sun.net.www.protocol.file.Handler (java.base@11.0.19)
+1378:             1             16  sun.net.www.protocol.jar.Handler (java.base@11.0.19)
+1379:             1             16  sun.net.www.protocol.jar.JarFileFactory (java.base@11.0.19)
+1380:             1             16  sun.net.www.protocol.jrt.Handler (java.base@11.0.19)
+1381:             1             16  sun.nio.ch.ExtendedSocketOption$1 (java.base@11.0.19)
+1382:             1             16  sun.nio.ch.Net$1 (java.base@11.0.19)
+1383:             1             16  sun.nio.ch.Util$1 (java.base@11.0.19)
+1384:             1             16  sun.nio.ch.Util$2 (java.base@11.0.19)
+1385:             1             16  sun.nio.ch.WindowsSelectorProvider (java.base@11.0.19)
+1386:             1             16  sun.nio.fs.NativeBuffers$1 (java.base@11.0.19)
+1387:             1             16  sun.nio.fs.WindowsChannelFactory$1 (java.base@11.0.19)
+1388:             1             16  sun.nio.fs.WindowsFileSystemProvider (java.base@11.0.19)
+1389:             1             16  sun.security.provider.AbstractDrbg$$Lambda$52/0x0000000100120c40 (java.base@11.0.19)
+1390:             1             16  sun.security.provider.AbstractDrbg$SeederHolder$$Lambda$53/0x0000000100127040 (java.base@11.0.19)
+1391:             1             16  sun.security.provider.DRBG$$Lambda$51/0x0000000100120040 (java.base@11.0.19)
+1392:             1             16  sun.security.provider.NativeSeedGenerator (java.base@11.0.19)
+1393:             1             16  sun.util.calendar.Gregorian (java.base@11.0.19)
+1394:             1             16  sun.util.cldr.CLDRBaseLocaleDataMetaInfo (java.base@11.0.19)
+1395:             1             16  sun.util.locale.InternalLocaleBuilder$CaseInsensitiveChar (java.base@11.0.19)
+1396:             1             16  sun.util.locale.provider.CalendarDataUtility$CalendarWeekParameterGetter (java.base@11.0.19)
+1397:             1             16  sun.util.resources.LocaleData$LocaleDataStrategy (java.base@11.0.19)
+1398:             1             16  sun.util.resources.cldr.provider.CLDRLocaleDataMetaInfo (jdk.localedata@11.0.19)
+Total        104975       10971288

@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"naver_webtoon.annotation","c":"CustomerTest","l":"CustomerTest()","url":"%3Cinit%3E()"},{"p":"naver_webtoon.annotation","c":"CustomerTest","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"naver_webtoon.annotation","c":"StringNum","l":"printinfo()"}]

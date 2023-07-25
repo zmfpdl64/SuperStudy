@@ -1,4 +1,4 @@
-package 네이버클라우드.과제.dao;
+package 네이버클라우드.과제.service;
 
 import 네이버클라우드.과제.entity.Guest;
 

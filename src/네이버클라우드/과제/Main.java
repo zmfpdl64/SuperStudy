@@ -1,7 +1,7 @@
 package 네이버클라우드.과제;
 
 import 네이버클라우드.과제.dao.ItemRepository;
-import 네이버클라우드.과제.dao.StoreInterface;
+import 네이버클라우드.과제.service.StoreInterface;
 import 네이버클라우드.과제.entity.*;
 import 네이버클라우드.과제.service.Store;
 
@@ -29,11 +29,15 @@ public class Main{
         StoreClerk storeClerk = new StoreClerk("친절하고_가족같은_도라에몽", 0);
         ItemRepository itemRepository = new ItemRepository(items);
 
+
         StoreInterface store = new Store(storeClerk, deliveryDriver, itemRepository);
+
         store.goToStore(guest);
         System.out.println();
+
         guest.setItem(noQuantityItem);
         store.goToStore(guest);
+
         System.out.println();
         guest.setItem(expensiveItem);
         store.goToStore(guest);

@@ -76,9 +76,6 @@ public class Guest {
         throw new StoreException(StoreErrorCode.CUSTOMER_NO_HAVE_MONEY);
     }
 
-    public void sayLaterCome(){
-        System.out.println("손님: 다음에 올게요... 현재 남은 금액은: " + this.getMoney() + " 남았습니다.");
-    }
 
     public void buyItem(StoreClerk storeClerk) throws RuntimeException {
         Item buyItem = this.getItem();
@@ -101,6 +98,9 @@ public class Guest {
             this.setMoney(this.getMoney()-totalPrice);
         }
     }
+    public void sayLaterCome(){
+        System.out.println("손님: 다음에 올게요... 현재 남은 금액은: " + this.getMoney() + " 남았습니다.");
+    }
 
     public void sayRefundMessage(){
         System.out.println("손님: 배송료가 너무 비싸네요.. 신발 가격 환불해주세요");
@@ -116,7 +116,6 @@ public class Guest {
                             "이 좋아서 " + "기분이 " + feeling.name() + "다" + "\n" +
                             "남은 잔액은 " + this.getMoney() + " 남았습니다."
                 );
-
     }
 
     public void sayMessage(String message) {

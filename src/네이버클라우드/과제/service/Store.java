@@ -1,7 +1,6 @@
 package 네이버클라우드.과제.service;
 
 import 네이버클라우드.과제.dao.ItemRepository;
-import 네이버클라우드.과제.dao.StoreInterface;
 import 네이버클라우드.과제.entity.*;
 import 네이버클라우드.과제.exception.StoreErrorCode;
 import 네이버클라우드.과제.exception.StoreException;
@@ -37,7 +36,7 @@ public class Store implements StoreInterface {
             Item item = itemRepository.findItem(guest.getItem().getItemName())
                     .orElseThrow(() ->
                         new StoreException(StoreErrorCode.ITEM_NO_HAVE_QUANTITY)
-                    );
+                    ); //빈값을 그냥 던지는 방법!! empty list, empty map
             storeClerk.explainItemInfo(item.getAdvantage(), item.getPrice());
 
             return true;
@@ -66,7 +65,7 @@ public class Store implements StoreInterface {
     }
 
     //메인 메소드
-    public void goToStore(Guest guest) {
+    public void goToStore(Guest guest) { //메소드가 너무 길어
         try{
             guestAskItem(guest); //아이템 물어보고 점원이 소개
             guestCanBuyItem(guest); // 아이템 살 수 있는지 확인
@@ -84,7 +83,7 @@ public class Store implements StoreInterface {
         }catch(Exception e) {
             storeClerk.sayMessage(e.getMessage());
         }
-    }
+    } // 크리티컬 할 때만 throw를 사용한다!!!
 
     private void buyItemProcess(Guest guest) {
         guest.sayProgressBuy();

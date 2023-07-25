@@ -1,4 +1,4 @@
-package snow.day4.팀장님지시사항;
+package naver_webtoon.method_reference;
 
 public class Customer {
     private String name;

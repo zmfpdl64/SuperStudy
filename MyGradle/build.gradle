@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+var jUnitVersion = "5.9.1"
+
+dependencies {
+    testImplementation platform("org.junit:junit-bom:${jUnitVersion}")
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.google.guava:guava:32.0.1-jre'
+
+    //MapStructor
+    implementation 'org.mapstruct:mapstruct:1.5.3.Final'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+
+    //jasypt
+    // https://mvnrepository.com/artifact/org.jasypt/jasypt
+    implementation 'org.jasypt:jasypt:1.9.3'
+
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javadoc {
+    exclude("build/classes/java/main/org/example/Main.class")
+}

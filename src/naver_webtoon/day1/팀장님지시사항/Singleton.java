@@ -1,4 +1,4 @@
-package naver_webtoon.팀장님지시사항;
+package naver_webtoon.day1.팀장님지시사항;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

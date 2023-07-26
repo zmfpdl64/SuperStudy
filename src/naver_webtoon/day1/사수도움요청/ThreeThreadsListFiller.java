@@ -1,6 +1,5 @@
-package naver_webtoon.사수도움요청;
+package naver_webtoon.day1.사수도움요청;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

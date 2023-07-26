@@ -1,7 +1,6 @@
-package naver_webtoon.팀장님지시사항;
+package naver_webtoon.day1.팀장님지시사항;
 
 import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.HashMap;
